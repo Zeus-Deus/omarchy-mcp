@@ -1,4 +1,10 @@
-data/
+# Data - only ignore raw downloads and temp files
+data/raw/
+data/temp/
+data/processed/
+
+# Keep processed docs and snapshots
+# (processed docs are small after cleaning)
 
 # Python
 __pycache__/
@@ -13,3 +19,6 @@ ENV/
 .vscode/
 .cursor/
 .idea/
+
+# Chroma DB (generated at runtime)
+chroma-data/
