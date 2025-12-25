@@ -29,11 +29,11 @@ sleep 10
 
 # Download and process Arch & Hyprland docs
 echo "📥 Downloading Arch & Hyprland documentation..."
-docker exec omarchy-mcp-server python scripts/1_download_archwiki.py
-docker exec omarchy-mcp-server python scripts/2_download_hyprland.py
+./scripts/1_download_archwiki.sh
+docker exec omarchy-mcp-server bash scripts/2_download_hyprland.sh
 
 echo "🧹 Cleaning documentation..."
-docker exec omarchy-mcp-server python scripts/4_clean_arch.py
+docker exec omarchy-mcp-server python scripts/4_clean_archwiki.py
 docker exec omarchy-mcp-server python scripts/5_clean_hyprland.py
 
 # Ingest everything
