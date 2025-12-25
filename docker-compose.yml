@@ -1,0 +1,36 @@
+services:
+  # Chroma vector database - separate container
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: omarchy-chroma
+    volumes:
+      - ./data/chroma:/chroma/chroma
+    ports:
+      - "8000:8000"
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+    networks:
+      - omarchy-network
+
+  # MCP server - Python app
+  mcp-server:
+    build: .
+    container_name: omarchy-mcp-server
+    depends_on:
+      - chromadb
+    volumes:
+      - ./data:/app/data
+      - ./mcp_server:/app/mcp_server
+      - ./scripts:/app/scripts
+    environment:
+      - CHROMA_HOST=chromadb
+      - CHROMA_PORT=8000
+    networks:
+      - omarchy-network
+    stdin_open: true
+    tty: true
+
+networks:
+  omarchy-network:
+    driver: bridge
