@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "GUIs #",
+  "version": "3.2.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Obsidian is a free and highly extensible note taking application that uses simple Markdown files for storage.\n\nObsidian is free for all purposes, including personal, commercial, and non-profit use.\n\nObsidian also offers a commercial add-on for syncing with mobile apps on iOS and Android. (https://obsidian.md/pricing).\n\nYou start Obsidian with Super + Shift + O.\n\nPinta is a basic image editing tool that's great for cropping, resizing, and other basic manipulations. Just don't expect a Photoshop alternative. But it's still got a Magic Wand and layers!\n\nYou start Pinta via the application launcher (Super + Space).\n\nLocalSend lets you send files to other devices on the same network running the app, like Apple's AirDrop. It's cross-platform, though, so you can send files to and from Windows, macOS, Android, iOS, and of course Linux.\n\nLibreOffice is a complete office package with word processor, spreadsheet, presentations, drawing application, and more. It's compatible with files from Microsoft Office, so this is a great way to be able to open those Word documents.\n\nYou start LibreOffice via the application launcher (Super + Space).\n\nSignal is the pioneer of E2E encrypted messaging, and a great communication option for anyone who'd prefer not to go through one of the big tech conglomerates.\n\nYou start Signal with Super + Shift + G.\n\nmpv is a simple, fast media player that'll play almost anything from any source. Great for watching videos.\n\nYou start mpv via the application launcher (Super + Space) or just double-click on a video in the file manager.\n\nOBS Studio lets you record or stream video from multiple inputs. You can mix a screencast with a webcam with a microphone input. It's what was used to record the Omarchy screencasts.\n\nYou start OBS Studio via the application launcher (Super + Space).\n\nKdenlive is an excellent video editor. Perfect for working on video that comes out of OBS Studio before sharing it.\n\nYou start Kdenlive via the application launcher (Super + Space)."
+}
