@@ -5,7 +5,9 @@ echo "🚀 Setting up Omarchy MCP Server (v3.2.3)..."
 
 # Create directories
 mkdir -p data/processed/omarchy
-mkdir -p data/raw
+mkdir -p data/raw/archwiki
+mkdir -p data/raw/hyprland
+mkdir -p data/raw/omarchy_releases
 
 # Restore Omarchy v3.2.3 from snapshot
 if [ -d "data/snapshots/omarchy-3.2.3-processed" ]; then
