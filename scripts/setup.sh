@@ -32,9 +32,13 @@ echo "📥 Downloading Arch & Hyprland documentation..."
 ./scripts/1_download_archwiki.sh
 docker exec omarchy-mcp-server bash scripts/2_download_hyprland.sh
 
+echo "📥 Downloading Omarchy release notes..."
+docker exec omarchy-mcp-server python scripts/8_download_omarchy_releases.py
+
 echo "🧹 Cleaning documentation..."
 docker exec omarchy-mcp-server python scripts/4_clean_archwiki.py
 docker exec omarchy-mcp-server python scripts/5_clean_hyprland.py
+docker exec omarchy-mcp-server python scripts/9_clean_omarchy_releases.py
 
 # Ingest everything
 echo "📊 Ingesting to vector database (this takes ~10 minutes)..."

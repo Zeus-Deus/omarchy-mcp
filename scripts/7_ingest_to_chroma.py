@@ -154,6 +154,66 @@ def main():
     if (PROCESSED_DIR / "hyprland").exists():
         total += ingest_source("Hyprland", PROCESSED_DIR / "hyprland")
     
+    # Priority 1: Omarchy release notes
+    print("\n📦 Processing Omarchy release notes...")
+    releases_dir = PROCESSED_DIR / "omarchy_releases"
+    release_chunks = 0
+
+    if releases_dir.exists():
+        documents = []
+        metadatas = []
+        ids = []
+        
+        json_files = list(releases_dir.glob("*.json"))
+        
+        for json_file in tqdm(json_files, desc="  Processing releases"):
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    chunks = json.load(f)
+                
+                for chunk in chunks:
+                    # Validate required fields
+                    if not all(k in chunk for k in ["content", "version", "title", "url", "section_id"]):
+                        continue
+                    
+                    # Skip empty or very short content
+                    if not chunk["content"] or len(chunk["content"].split()) < 20:
+                        continue
+                    
+                    documents.append(chunk["content"])
+                    metadatas.append({
+                        "source": "omarchy_releases",
+                        "version": chunk["version"],
+                        "title": chunk["title"],
+                        "url": chunk["url"],
+                        "type": "release_note",
+                        "priority": 1,
+                        "page": f"Release v{chunk['version']}"
+                    })
+                    ids.append(f"release_{chunk['version']}_{chunk['section_id']}")
+            
+            except Exception as e:
+                print(f"\n  ⚠️  Error processing {json_file.name}: {e}")
+                continue
+        
+        if ids:
+            print(f"  🔄 Generating embeddings for {len(ids)} chunks...")
+            embeddings = embedder.encode(documents).tolist()
+            
+            collection.upsert(
+                ids=ids,
+                documents=documents,
+                embeddings=embeddings,
+                metadatas=metadatas
+            )
+            release_chunks = len(ids)
+            total += release_chunks
+            print(f"✅ Added {release_chunks} release note chunks")
+        else:
+            print(f"  ⚠️  No valid release notes found in {releases_dir}")
+    else:
+        print(f"  ℹ️  No release notes directory found (optional)")
+
     # Priority 1: Omarchy (highest priority, overrides others)
     if (PROCESSED_DIR / "omarchy").exists():
         total += ingest_source("Omarchy", PROCESSED_DIR / "omarchy")
