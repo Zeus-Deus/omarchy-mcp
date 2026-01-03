@@ -5,6 +5,7 @@ A Model Context Protocol (MCP) server providing semantic search over Omarchy, Ar
 ## Version Information
 
 - **Omarchy:** v3.2.3 (pinned)
+- **Omarchy Releases:** All versions up to v3.2.3 (44 releases, ~100 chunks)
 - **Arch Wiki:** Latest (updated via script)
 - **Hyprland Wiki:** Latest (updated via script)
 
@@ -12,6 +13,7 @@ A Model Context Protocol (MCP) server providing semantic search over Omarchy, Ar
 
 ## Prerequisites
 
+- **Arch-based Linux system** (uses pacman for arch-wiki-docs)
 - Docker and Docker Compose
 - Git
 - 10 GB free disk space
@@ -39,7 +41,7 @@ chmod +x scripts/setup.sh
 - Download latest Arch Wiki and Hyprland documentation
 - Build and start Docker containers
 - Process and ingest all documentation into vector database
-- Create 8,000+ searchable documentation chunks
+- Create 8,500+ searchable documentation chunks
 
 ### 3. Configure Cursor IDE
 
@@ -80,6 +82,12 @@ Or:
 How do I configure Hyprland keybindings in Omarchy?
 ```
 
+Or:
+
+```
+Use omarchy-kb to tell me what's new in Omarchy version 3.2.0
+```
+
 ## Available Tools
 
 The MCP server provides these tools:
@@ -93,23 +101,18 @@ The MCP server provides these tools:
 
 The knowledge base includes:
 
-| Source    | Documents | Priority    | Description                                       |
-| --------- | --------- | ----------- | ------------------------------------------------- |
-| Omarchy   | 65        | 1 (highest) | Omarchy-specific documentation and customizations |
-| Hyprland  | 302       | 2           | Hyprland window manager documentation             |
-| Arch Wiki | 8,119     | 3           | Base Arch Linux documentation                     |
+| Source           | Documents   | Priority    | Description                                           |
+| ---------------- | ----------- | ----------- | ----------------------------------------------------- |
+| Omarchy          | 65          | 1 (highest) | Omarchy-specific documentation and customizations     |
+| Omarchy Releases | ~100 chunks | 1 (highest) | GitHub release notes with changelogs and new features |
+| Hyprland         | 302         | 2           | Hyprland window manager documentation                 |
+| Arch Wiki        | 2,493       | 3           | Base Arch Linux documentation                         |
 
 **Priority System:** When conflicts occur, Omarchy documentation takes precedence over Hyprland and Arch.
 
 ## Updating Documentation
 
-To update Arch Wiki and Hyprland documentation to latest versions:
-
-```
-./scripts/update_docs.sh
-```
-
-**Note:** Omarchy documentation remains at v3.2.3 (pinned version).
+**Note:** Omarchy documentation and release notes remain at v3.2.3 (pinned version). To update Arch Wiki and Hyprland documentation, re-run the setup script or manually execute the download and processing scripts.
 
 ## Manual Operations
 
@@ -150,14 +153,15 @@ omarchy-mcp/
 │   └── processed/ # Cleaned JSON (ignored)
 ├── scripts/
 │   ├── setup.sh # Initial setup script
-│   ├── update_docs.sh # Update Arch/Hyprland docs
-│   ├── 1_download_archwiki.py # Download Arch Wiki
-│   ├── 2_download_hyprland.py # Download Hyprland wiki
-│   ├── 3_download_omarchy.py # Download Omarchy manual
-│   ├── 4_clean_arch.py # Clean Arch HTML to JSON
+│   ├── 1_download_archwiki.sh # Download Arch Wiki
+│   ├── 2_download_hyprland.sh # Download Hyprland wiki
+│   ├── 3_download_omarchy.sh # Download Omarchy manual
+│   ├── 4_clean_archwiki.py # Clean Arch HTML to JSON
 │   ├── 5_clean_hyprland.py # Clean Hyprland MD to JSON
 │   ├── 6_clean_omarchy.py # Clean Omarchy HTML to JSON
-│   └── 7_ingest_to_chroma.py # Ingest to vector database
+│   ├── 7_ingest_to_chroma.py # Ingest to vector database
+│   ├── 8_download_omarchy_releases.py # Download Omarchy releases (NEW!)
+│   └── 9_clean_omarchy_releases.py # Clean releases to JSON (NEW!)
 ├── mcp_server/
 │   └── main.py # MCP server implementation
 ├── docker-compose.yml # Docker services definition
@@ -188,7 +192,7 @@ print(f'Documents: {collection.count()}')
 "
 ```
 
-- Should show approximately 8,400+ documents
+- Should show approximately 8,500+ documents
 
 ### Setup Script Fails
 
