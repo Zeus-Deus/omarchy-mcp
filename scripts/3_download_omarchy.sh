@@ -3,6 +3,8 @@ set -e
 
 echo "📥 Downloading Omarchy documentation..."
 
+# Ensure target directory exists
+mkdir -p data/raw/omarchy
 cd data/raw/omarchy
 
 # Mirror the manual (full offline copy)
