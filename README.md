@@ -66,9 +66,33 @@ Create or edit `~/.cursor/mcp.json`:
 
 **Important:** Restart Cursor completely after adding the configuration.
 
-### 4. Use in Cursor
+### 4. Configure OpenCode
 
-1. Open Cursor IDE
+Create or edit `~/.config/opencode/opencode.json`:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "system",
+  "mcp": {
+    "omarchy-kb": {
+      "type": "local",
+      "command": [
+        "docker",
+        "exec",
+        "-i",
+        "omarchy-mcp-server",
+        "python",
+        "/app/mcp_server/main.py"
+      ]
+    }
+  }
+}
+```
+
+### 5. Use in Cursor / OpenCode
+
+1. Open your IDE (Cursor or OpenCode)
 2. Switch to **Agent mode** (click "Ask" dropdown in bottom-left, select "Agent")
 3. In the chat, type queries like:
 
