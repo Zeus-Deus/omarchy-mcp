@@ -43,7 +43,7 @@ docker exec omarchy-mcp-server python scripts/5_clean_hyprland.py
 docker exec omarchy-mcp-server python scripts/9_clean_omarchy_releases.py
 
 # Ingest everything
-echo "📊 Ingesting to vector database (this takes ~10 minutes)..."
+echo "📊 Ingesting to vector database (this takes ~3-4 minutes)..."
 docker exec omarchy-mcp-server python scripts/7_ingest_to_chroma.py
 
 echo ""

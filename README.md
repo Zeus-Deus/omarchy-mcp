@@ -35,7 +35,7 @@ chmod +x scripts/setup.sh
 ./scripts/setup.sh
 ```
 
-**This will take approximately 10 minutes and will:**
+**This will take approximately 3-4 minutes and will:**
 
 - Restore Omarchy v3.2.3 docs from snapshot
 - Download latest Arch Wiki and Hyprland documentation
