@@ -4,7 +4,7 @@ services:
     image: chromadb/chroma:latest
     container_name: omarchy-chroma
     volumes:
-      - chroma_data:/chroma/chroma
+      - chroma_data:/data
     ports:
       - "8000:8000"
     environment:
