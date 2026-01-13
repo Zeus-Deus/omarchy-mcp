@@ -4,11 +4,21 @@ Omarchy MCP Server - Knowledge base for Omarchy/Arch/Hyprland
 """
 
 import os
+import sys
 import json
+import logging
 from typing import Optional
 import chromadb
 from mcp.server.fastmcp import FastMCP
 from sentence_transformers import SentenceTransformer
+
+# Configure logging to use stderr (not stdout, which is used by MCP protocol)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(message)s',
+    stream=sys.stderr
+)
+logger = logging.getLogger(__name__)
 
 # Configuration
 CHROMA_HOST = os.getenv("CHROMA_HOST", "chromadb")
@@ -19,15 +29,15 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 mcp = FastMCP("omarchy-kb")
 
 # Initialize embedding model
-print(f"🔧 Loading embedding model: {EMBEDDING_MODEL}")
+logger.info(f"🔧 Loading embedding model: {EMBEDDING_MODEL}")
 embedder = SentenceTransformer(EMBEDDING_MODEL)
 
 # Connect to Chroma
-print(f"🔌 Connecting to Chroma at {CHROMA_HOST}:{CHROMA_PORT}")
+logger.info(f"🔌 Connecting to Chroma at {CHROMA_HOST}:{CHROMA_PORT}")
 client = chromadb.HttpClient(host=CHROMA_HOST, port=CHROMA_PORT)
 collection = client.get_collection(name="omarchy_docs")
 
-print(f"✅ Connected to collection with {collection.count()} documents")
+logger.info(f"✅ Connected to collection with {collection.count()} documents")
 
 # ============================================================================
 # TOOL 1: Search Documentation
@@ -229,5 +239,5 @@ def get_server_info() -> str:
 
 
 if __name__ == "__main__":
-    print("🚀 OMARCHY MCP SERVER STARTING")
+    logger.info("🚀 OMARCHY MCP SERVER STARTING")
     mcp.run()
