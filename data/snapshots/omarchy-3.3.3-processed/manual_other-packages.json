@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Other Packages #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Arch has an amazing wealth of packages available for almost any type of software between the official repository and the Arch User Repository (AUR).\n\nIt couldn't be easier to use either. You install a new Arch package by going to Install > Package in the Omarchy menu (Super + Alt + Space) and typing the package you want. It'll automatically fuzzy filter the list of all packages. (You can also do it manually using with sudo pacman -S [package] in the terminal).\n\nsudo pacman -S [package]\n\nYou can do the same with AUR, just use Install > AUR. Just remember that the AUR isn't vetted by the Arch team. It's like RubyGems or npm. Anyone can upload.\n\nIf you want to remove a package, you can use Remove > Package from the Omarchy menu. It'll remove package, config files, and dependencies. (You can also do it manually using sudo pacman -Rns [package]).\n\nsudo pacman -Rns [package]\n\nOmarchy uses a stable package mirror by default that's delayed by up to one month behind the official Arch package repository. This gives us time to verify that new packages don't break things in the system.\n\nIf you'd like to live on the very edge and get packages as soon as they're released, you can hop on edge with omarchy-channel-set edge (and back to again with omarchy-channel-set stable).\n\nomarchy-channel-set edge\n\nomarchy-channel-set stable\n\nOmarchy builds a number of packages directly, and they're hosted in a separate repository. This is packages for AUR software that we need by default, and for things like the Omarchy Chromium Fork."
+}

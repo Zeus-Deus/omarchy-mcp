@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Hotkeys #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "You can see all the main keyboard bindings by hitting Super + K.\n\nSuper + Shift + 1/2/3/4\n\nSuper + Shift + Alt + Arrows\n\nSuper + Shift + Arrow\n\nSuper + Shift + Equal\n\nSuper + Shift + Minus\n\nSuper + Alt + 1/2/3/4\n\nSuper + Shift + Alt + B\n\nSuper + Shift + Alt + G\n\nSuper + Shift + Ctrl + G\n\nChange/add bindings in ~/.config/hypr/bindings.conf.\n\n~/.config/hypr/bindings.conf\n\nUsually on Linux, you need Ctrl + Shift + C/V to copy'n'paste in the terminal and Ctrl + C/V to do it everywhere else. These Omarchy unified clipboard hotkeys work everywhere.\n\nWith screenrecordings, hit the hotkey to start, hit it again to stop.\n\nAll capture options are also accessible under Capture in the Omarchy menu (Super + Alt + Space).\n\nSuper + Ctrl + Shift + Space\n\nExtra background images live in ~/.config/omarchy/current/backgrounds. You can put more there to cycle through. Also available via Install > Background in the Omarchy menu.\n\n~/.config/omarchy/current/backgrounds\n\nAll style options are also accessible under Style in the Omarchy menu (Super + Alt + Space).\n\nSuper + Shift + Space\n\nSuper + Ctrl + Shift + Arrows\n\nSuper + Ctrl + Shift + Alt + Arrows\n\nCtrl + Shift + Arrows\n\nApple displays have their own brightness control via asdcontrol:\n\nCtrl + Left/right arrow\n\nSee all the Neovim hotkeys configured by LazyVim.\n\nYou can use Super + Ctrl + E to show a complete emoji picker that'll put the selection on the clipboard or you can use these quick access options.\n\nYou can add more of your own by editing ~/.XCompose, then running omarchy-restart-xcompose in the terminal to get the changes picked up.\n\nomarchy-restart-xcompose"
+}

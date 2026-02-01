@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.11.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add new unified Omarchy menu system by @dhh\r\n* Add touchpad gestures to Chrome by @ryanrhughes \r\n* Fix picture-in-picture window positioning by @ElFitaFlores + @dhh\r\n* Fix hypridle screensaver starting after actually 2.5 minutes by @rmacklin \r\n* Fix hyprpicker should toggle not stack by @dhh \r\n* Fix error handling in fido2 setup by @DavidHoenisch\r\n\r\nUpdate using `omarchy-update`. From this version forward, you can update via the Omarchy menu.\r\n\r\nThe old `omarchy` TUI has been replaced by `omarchy-menu`. You can start it using `Super + Alt + Space` or from the new icon in the upper left corner.\r\n\r\nNote: The `~/.config/hypr/hyprland.conf` has been divided into several dedicated files. The update process will ask you to confirm that you want the new layout (which enables some direct editing via the new menu system). If you say yes, you'll be reset to Omarchy defaults, but your own settings will still be in `~/.config/hypr/hyprland.conf/bak.$timestamp`, and you can just copy them to the right place. \r\n\r\n### New unified Omarchy menu system\r\n\r\nThe old Omarchy TUI has been retired, a ton of the commands have been reworked, and we now have a single way to control just about everything about the system. See this introduction video: https://www.youtube.com/watch?v=Cft6mZDzIng",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.11.0",
+    "published": "2025-08-05T15:24:41Z"
+  },
+  {
+    "version": "1.11.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @DavidHoenisch made their first contribution in https://github.com/basecamp/omarchy/pull/494\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.10.0...v1.11.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.11.0",
+    "published": "2025-08-05T15:24:41Z"
+  }
+]

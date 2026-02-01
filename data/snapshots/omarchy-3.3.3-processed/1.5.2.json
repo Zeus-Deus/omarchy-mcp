@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.5.2",
+    "section_id": 0,
+    "title": "What's Changed",
+    "content": "* Add link to community Discord if installation fails by @dhh\r\n* Fix missing directories now required for startup that was preventing new installs by @alansikora in https://github.com/basecamp/omarchy/pull/233",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.5.2",
+    "published": "2025-07-19T00:54:28Z"
+  },
+  {
+    "version": "1.5.2",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @alansikora made their first contribution in https://github.com/basecamp/omarchy/pull/233\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.5.1...v1.5.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.5.2",
+    "published": "2025-07-19T00:54:28Z"
+  }
+]

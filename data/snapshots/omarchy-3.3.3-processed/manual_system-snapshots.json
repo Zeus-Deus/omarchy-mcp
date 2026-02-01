@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "System snapshots #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "We create snapshots automatically on every Omarchy update, but should you want to create your own, you can use omarchy-snapshot create.\n\nomarchy-snapshot create\n\nTo boot and restore a snapshot, you select it from the Limine boot loader. (If you're currently booting straight into the Omarchy decryption screen, you'll need to select Limine as a boot option via the BIOS first).\n\nFrom that screen, choose the snapshot you'd like to boot into based on the date and version. The version of Omarchy at the time of the snapshot can be seen at the bottom left corner.\n\nWhen you arrive inside, a notification will popup notifying you that you're in a bootable snapshot and if you click it, will start the restoration process. Alternatively, you can utilize omarchy-snapshot restore.\n\nomarchy-snapshot restore\n\nThis will restore your /root, but not your /home. So it works for reverting a broken system update, but not for recovering lost personal files.\n\nNote: This feature is only available on installations using the Limine boot loader, which has been the default since Omarchy 2.0. It's not available if you're on GRUB or systemd-boot."
+}

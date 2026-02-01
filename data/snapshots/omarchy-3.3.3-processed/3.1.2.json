@@ -1,0 +1,29 @@
+[
+  {
+    "version": "3.1.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`).\r\n\r\nInstall on new machines with the ISO:\r\n - Download: https://iso.omarchy.org/omarchy-3.1.2.iso\r\n - SHA256: f428fa1bc6656b8a576ab6c05d52be91f3d71bebac1bb2713f70dc7b035eab40",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.2",
+    "published": "2025-10-24T07:15:24Z"
+  },
+  {
+    "version": "3.1.2",
+    "section_id": 1,
+    "title": "New Additions",
+    "content": "* Add dynamic resolution, sound, microphone, AVC444 graphics, and tiling compatibility to Windows VM by @ATeal + @boozlbork + @garovu + @dhh\r\n* Add `Super + Alt + Mouse scrolling` to move between windows in a tile group by @mythz \r\n* Add `omarchy-debug` for obtaining debug logs more easily by @ryanrhughes\r\n* Add `omarchy-refresh-limine` to reset limine configs by @ryanrhughes \r\n* Add `omarchy-reinstall` to reset all Omarchy configs by @dhh + @ryanrhughes  \r\n* Add `Super + Ctrl + T` to show time in a notification by @dhh \r\n* Add `Super + Ctrl + B` to show battery level in a notification by @dhh \r\n* Add _Update > Time_ via Omarchy menu to update time with latest sync by @dhh\r\n* Add `omarchy-launch-terminal` with fallback in case envs become unset by @ryanrhughes \r\n* Add terminal launch on right click of the Omarchy menu icon in case keybinds are unavailable by @ryanrhughes",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.2",
+    "published": "2025-10-24T07:15:24Z"
+  },
+  {
+    "version": "3.1.2",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "* Remove branch from Omarchy menu by @dhh \r\n* Fix VSCode self-update disable check by @sgruendel\r\n* Fix that `Update > Extra Themes` should only update git themes, not Aether by @dhh\r\n* Fix bashrc inclusion should bail when not interactive by @ryanrhughes \r\n* Fix omarchy update breaking when waybar was not running by @dhh\r\n* Fix limine bootloader screen to be default for all new installs by @ryanrhughes \r\n* Fix catch errors during updates more consistently by @ryanrhughes \r\n* Fix nvim syntax highlighting error after setup by @ryanrhughes",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.2",
+    "published": "2025-10-24T07:15:24Z"
+  }
+]

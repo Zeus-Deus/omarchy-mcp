@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.10.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add toggling nightlight display temperature via [hyprsunset](https://wiki.hypr.land/Hypr-Ecosystem/hyprsunset/) on `SUPER + CTRL + N` by @JaxonWright \r\n* Add auto-discovery of network printers by @rockorager + @dhh\r\n* Add human descriptions to dynamically discovered keybindings cheat sheet (`SUPER + K`) by @spdawson \r\n* Add support for accessing Android files via file manager when phone is connected via USB by @erik-brueggemann\r\n* Add `OMARCHY_REPO` options to boot.sh for testing custom repos by @ryanrhughes \r\n* Fix new installations should already have the migration state set for that release by @dhh\r\n* Fix screensaver should start on all displays by @precision\r\n* Fix screensaver should use a bigger font to be less CPU intensive by @precision\r\n* Fix screensaver should wait 2.5 minutes instead of 1 minute before starting automatically by @dhh\r\n* Fix `refresh-compose` function should just be a `omarchy-refresh-xcompose` like everything else by @dhh \r\n* Fix keybindings cheat sheet would only show the first 50 elements by @abenz1267 + @dhh\r\n* Fix battery warning notification to stick around for 30 seconds instead of 2 to be harder to miss by @dhh\r\n* Fix missing waybar update needed to get the new-version icon in the top bar by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.10.0",
+    "published": "2025-08-03T14:13:54Z"
+  },
+  {
+    "version": "1.10.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @rosscondie made their first contribution in https://github.com/basecamp/omarchy/pull/464\r\n* @erik-brueggemann made their first contribution in https://github.com/basecamp/omarchy/pull/466\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.9.0...v1.10.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.10.0",
+    "published": "2025-08-03T14:13:54Z"
+  }
+]

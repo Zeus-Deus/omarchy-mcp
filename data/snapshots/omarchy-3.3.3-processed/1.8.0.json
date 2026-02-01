@@ -1,0 +1,11 @@
+[
+  {
+    "version": "1.8.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add font menu for easily changing terminal fonts via `omarchy-font-menu` and in Omarchy TUI by @dhh\r\n* Add more resilient migration strategy that tracks which migrations you've run by @ardavis \r\n* Add `Themes > Update` to Omarchy TUI to refresh extra themes by @ryanrhughes \r\n* Add .bak.$timestamp strategy to the omarchy-refresh-* scripts to prevent ever losing configs by \r\n* Add file finder to application launcher by using \".\" as a leader key by @Mohamedsayhii\r\n* Add font packages ttf-cascadia-mono-nerd and ttf-ia-writer instead of manually downloading fonts by @dhh\r\n* Add $OMARCHY_PATH as default env by @dhh\r\n* Fix bug where application launcher wouldn't pickup fresh theme by @dhh\r\n* Fix decryption screen logo to match the updated version by @tahayvr \r\n\r\nUpdate by running `omarchy-update` _twice_. That'll ensure that the new strategy for migrations is initialized, and any migrations you might have missed will be run. On your next update, you just run it once.\r\n\r\n### New font menu\r\n\r\n<img width=\"1236\" height=\"950\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1790e66b-632d-4427-a8fd-7d53ad490ec9\" />\r\n\r\n### New finder via application launcher\r\n\r\n<img width=\"1396\" height=\"858\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0ff4d724-bfd7-4da8-8102-061c540edda2\" />\r\n\r\n(Note that the finder might take a while on big searches)\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.7.0...v1.8.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.8.0",
+    "published": "2025-07-30T21:45:54Z"
+  }
+]

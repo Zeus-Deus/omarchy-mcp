@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Dictation #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Omarchy offers AI dictation via Voxtype. You install it via Install > AI > Dictation through the Omarchy menu. By default, it'll load a base English model that takes up 150MB. But you can tweak which model you'd like to use by running voxtype setup model in the terminal. And you can tweak all the settings via ~/.config/voxtype/config.toml.\n\n~/.config/voxtype/config.toml\n\nOnce you're installed, you dictate by holding down Super + Ctrl + X, and once you release, the dictated text will appear in the focused input area."
+}

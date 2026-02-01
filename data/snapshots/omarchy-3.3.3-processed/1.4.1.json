@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.4.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add fully user-editable wofi styles in .config/wofi by @dhh\r\n* Fix matte black theme wasn't getting picked up for some users by @dhh \r\n* Fix all wofi menus should toggle on their binding instead of stack by @dhh\r\n* Fix opening manual from Omarchy TUI on command line by @dhh \r\n* Fix repeated configs in waybar config from a botched merge by @mrtnin",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.4.1",
+    "published": "2025-07-16T15:21:00Z"
+  },
+  {
+    "version": "1.4.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @mrtnin made their first contribution in https://github.com/basecamp/omarchy/pull/192\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.4.0...v1.4.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.4.1",
+    "published": "2025-07-16T15:21:00Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "version": "2.0.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix AMI bios bricking bug by @ryanrhughes \r\n* Fix omarchy-launch-browser and omarchy-launch-webapp for folks using Nix home manager by @manofcolombia\r\n* Fix _Update > Omarchy_ should use our new icon instead of Arch by @tahayvr \r\n* Fix _Remove > Web App_ and _Remove > TUI_ for removing multi-word entries by @jopesh\r\n* Fix _Remove > Web App_ and _Remove > TUI_ should use an x instead of checkmark for selection by @hipsterusername\r\n* Fix emoji picker description in keybindings overview by @AdiY00\r\n* Fix that all chromium-based and firefox-based browser should have the same transparency rules by @joshleblanc + @dhh\r\n* Fix that omarchy-icon font shouldn't should up as an option in the _Style > Font_ menu by @WToa\r\n* Fix workspace tabbing should use `bindd` by @arcbjorn\r\n* Fix old installations still had About, Activity, Audio Settings apps in launcher that we've moved to Omarchy Menu by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.1",
+    "published": "2025-08-26T10:32:47Z"
+  },
+  {
+    "version": "2.0.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @manofcolombia made their first contribution in https://github.com/basecamp/omarchy/pull/1076\r\n* @hipsterusername made their first contribution in https://github.com/basecamp/omarchy/pull/1104\r\n* @meerzulee made their first contribution in https://github.com/basecamp/omarchy/pull/1103\r\n* @WToa made their first contribution in https://github.com/basecamp/omarchy/pull/1101\r\n* @arcbjorn made their first contribution in https://github.com/basecamp/omarchy/pull/1098\r\n* @AdiY00 made their first contribution in https://github.com/basecamp/omarchy/pull/1091\r\n* @jopesh made their first contribution in https://github.com/basecamp/omarchy/pull/1087\r\n* @joshleblanc made their first contribution in https://github.com/basecamp/omarchy/pull/1090\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.0.0...v2.0.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.1",
+    "published": "2025-08-26T10:32:47Z"
+  }
+]

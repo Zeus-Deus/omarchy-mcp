@@ -1,0 +1,65 @@
+[
+  {
+    "version": "2.0.0",
+    "section_id": 1,
+    "title": "Major additions",
+    "content": "* Add new Omarchy ISO online installer using the [Omarchy Configurator](https://github.com/omacom-io/omarchy-configurator/) front-end to archinstall by @torxed + @dhh + @ryanrhughes + @jardahrazdera + @tahayvr \r\n* Add new Omarchy Package Repository (OPR) as replacement for AUR hosted on Cloudflare for all default packages and split _Install > AUR_ out from _Install > Package_ to avoid AUR DDoS fallout by @ryanrhughes + @dhh \r\n* Add Limine/Snapper setup which snapshots before `omarchy-update` and allow for rollbacks in Limine bootloader by @ryanrhughes.\r\n* Add [Omarchy Chromium micro-fork](https://github.com/omacom-io/omarchy-chromium) that gives us live theme switching in the browser without having to close all windows by @hjanuschka\r\n* Add minimal [Starship](https://starship.rs/) prompt to terminal by @tobi + @dhh \r\n* Add _Install > TUI_ as a new TUI-wrapper like _Install > Web App_ by @dhh + @ryanrhughes \r\n* Add new Omarchy icon to About and top-left Omarchy Menu icon by @tahayvr \r\n* Add _Setup > DNS_ to easily use Cloudflare, DHCP, or Custom DNS server across the system by @jardahrazdera",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  },
+  {
+    "version": "2.0.0",
+    "section_id": 2,
+    "title": "Minor additions",
+    "content": "* Add `omarchy-launch-browser` and `omarchy-launch-webapp` so we can respect the default browser across the system by @ankurkotwal + @ryanrhughes\r\n* Add multiselect using tab to _Install > Package/AUR_ and _Remove > Package_ by @jardahrazdera + @dhh\r\n* Add network check to ensure AUR is available before trying any AUR operations by @dhh\r\n* Add sticky cwd when launching new terminal windows off an existing one by @halilozercan + @dhh\r\n* Add Tailscale TUI + Tailscale Web Admin webapp to Tailscale installer by @ryanrhughes + @dhh\r\n* Add higher sudo fail threshold (10 instead of 3) and `omarchy-reset-sudo` for when you've fat fingered your sudo password so many times you're locked out by @manuel1618\r\n* Add _System > Screensaver_ to start screensaver and make _Toggle > Screensaver_ control whether it should start automatically by @manuel1618 \r\n* Add _Style > Screensaver_ and _Style > About_ to allow changing the ASCII art used for screensaver and fastfetch by @dhh\r\n* Add Phoenix under _Install > Development > Elixir_ by @johanneserhardt\r\n* Add MongoDB under _Install > Development > Docker DB_ by @valbertoenoc\r\n* Add removal of orphan packages on Omarchy Update by @dhh\r\n* Add multi-select removal of web apps under _Remove > Web Apps_ by @dhh\r\n* Add `img2jpg`, `img2jpg-small`, `img2png` functions for turning any image into formats usable for web or backgrounds by @dhh\r\n* Add `Disk Usage` TUI using dust by @tobi + @dhh\r\n* Add QR code to join the Discord for help when the installer breaks by @uigig44 \r\n* Add new wallpapers to default themes by @Swarnim114 + @gthelding + @guilhermetk",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  },
+  {
+    "version": "2.0.0",
+    "section_id": 3,
+    "title": "New hotkeys",
+    "content": "* Add `Ctrl + Super + E` to bring up Walker Emoji selector by @dhh\r\n* Add `Super + Mute`  for switching between audio outputs by @chriopter\r\n* Add `Ctrl + Alt + Delete` for closing all windows by @chriopter\r\n* Add  `ALT + [Volume/Brightness Up/Down]` to apply 1% increments by @zaborowskimichal\r\n* Add `Super + Tab` and `Super + Alt + Tab` to move forward and backward through workspaces by @iamobservable \r\n* Add power button override to bring up Omarchy Power Menu instead of turning off computer by @v3rtx",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  },
+  {
+    "version": "2.0.0",
+    "section_id": 4,
+    "title": "Fixes",
+    "content": "* Fix Zoom's buggy native app by replacing it with a web app by @dhh\r\n* Fix use wf-recorder for screen recordings when on Intel graphics bt @alansikora \r\n* Fix font name setting for waybar + swayosd by @eamonburns\r\n* Fix Waybar stacking by not using SIGUSR1 or SIGUSR2 anywhere by @ryanrhughes  + @dhh\r\n* Fix wifi + bluetooth getting turned off from sleep/low battery when opening _Setup > Wi-Fi_ and _Setup > Bluetooth_ by @dhh\r\n* Fix show keybindings for some key combinations by @r3ap3r2004 \r\n* Fix presentation of fzf finder options in pkg installers by @rajayonin + @kataqatsi\r\n* Fix _Setup > Fido2_ to work for all of polkit and _Setup > Fingerprint_ to only ask for fingerprint not also password on polkit by @ryanrhughes \r\n* Fix Brave to use wayland and use Chrome-like opacity by @dhh\r\n* Fix Walker should close before screensaver starts by @robzolkos\r\n* Fix window sizing for JetBrains editors by @MikeVeerman, @sailoz, @vlofgren\r\n* Fix all system windows that float should use the same 800x600 size by @dhh\r\n* Fix Walker memory leak by removing service for now by @dhh\r\n* Fix keybindings for resizing active windows to work with non-US keyboard layouts by @manuel1618 \r\n* Fix USB auto-suspend issues after sleep/suspend by @jonnyace\r\n* Fix problems for some with power controls by adding missing dependency @dhh\r\n* Fix firewall rules to allow non-default docker bridge networks by @samuelpecher \r\n* Fix all default AUR packages by switching them over to the OPR by @dhh\r\n* Fix lock screen flashing content of screen on wake from sleep by @remshams \r\n* Remove \"bare mode\" as it violated the [Omakase Computing Doctrine](https://learn.omacom.io/3/omacom/81/doctrine#defaults-over-decisions) by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  },
+  {
+    "version": "2.0.0",
+    "section_id": 5,
+    "title": "Updating to 2.0",
+    "content": "Existing installations can upgrade by running _Update > Omarchy_ from the Omarchy Menu (or `omarchy-menu` if they're still on a version predating that). Everything will be brought up to the latest EXCEPT the switch to limine bootloader and snapper snapshot restoring. That is currently only available to new installations, but we will release instructions on how to make that transition manually soon.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  },
+  {
+    "version": "2.0.0",
+    "section_id": 6,
+    "title": "New ISO installations",
+    "content": "New installations should use the new online ISO installer: https://iso.omarchy.org/omarchy-online.iso\r\n\r\n<img width=\"1312\" height=\"1006\" alt=\"image\" src=\"https://github.com/user-attachments/assets/87b87f0b-c2fc-46b0-b2a8-da4da52f49d4\" />\r\n\r\n### New Chrome theme matching\r\n\r\nOur Omarchy Chromium micro-fork now matches colors on theme changes:\r\n\r\n<img width=\"6016\" height=\"3384\" alt=\"image\" src=\"https://github.com/user-attachments/assets/300f8633-422e-4a8e-8d94-57c5083c986c\" />\r\n\r\n### New Starship prompt\r\n\r\n<img width=\"542\" height=\"342\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8130628d-8bb8-4c56-a5a3-004ef8020502\" />\r\n\r\n[\"Borrowed\"](https://x.com/tobi/status/1957098881822429432) from @tobi\r\n\r\n### New Omarchy icon\r\n\r\n<img width=\"1644\" height=\"1334\" alt=\"image\" src=\"https://github.com/user-attachments/assets/13c436fd-4851-4a09-9084-1a27790b5a68\" />\r\n\r\nDesigned by @tahayvr \r\n\r\n### New Emoji Picker\r\n\r\nIn addition to the [XCompose quick emojis](https://learn.omacom.io/2/the-omarchy-manual/53/hotkeys#quick-emojis), you can now search the entire range of emojis with `Ctrl + Super + E`, and copy to clipboard:\r\n\r\n<img width=\"1432\" height=\"900\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5d4f3e6a-9be0-45d5-bf03-0f9d8459f2d4\" />\r\n\r\n### New QR code to join Discord if installer breaks\r\n\r\n<img width=\"926\" height=\"482\" alt=\"image\" src=\"https://github.com/user-attachments/assets/36230322-3cd7-41c5-980b-20bbcb7dba90\" />\r\n\r\n### New DNS selector\r\n\r\n<img width=\"3296\" height=\"2496\" alt=\"image\" src=\"https://github.com/user-attachments/assets/766052e9-aaf8-4ea3-b9be-2d45d795aa95\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  },
+  {
+    "version": "2.0.0",
+    "section_id": 7,
+    "title": "New Contributors",
+    "content": "* @zaborowskimichal made their first contribution in https://github.com/basecamp/omarchy/pull/670\r\n* @ericrswanny made their first contribution in https://github.com/basecamp/omarchy/pull/585\r\n* @not-NEK0 made their first contribution in https://github.com/basecamp/omarchy/pull/692\r\n* @dylanbr made their first contribution in https://github.com/basecamp/omarchy/pull/684\r\n* @Swarnim114 made their first contribution in https://github.com/basecamp/omarchy/pull/707\r\n* @bcye made their first contribution in https://github.com/basecamp/omarchy/pull/746\r\n* @r3ap3r2004 made their first contribution in https://github.com/basecamp/omarchy/pull/715\r\n* @kevinmcconnell made their first contribution in https://github.com/basecamp/omarchy/pull/812\r\n* @Gazler made their first contribution in https://github.com/basecamp/omarchy/pull/889\r\n* @kataqatsi made their first contribution in https://github.com/basecamp/omarchy/pull/858\r\n* @MikeVeerman made their first contribution in https://github.com/basecamp/omarchy/pull/888\r\n* @robzolkos made their first contribution in https://github.com/basecamp/omarchy/pull/701\r\n* @valbertoenoc made their first contribution in https://github.com/basecamp/omarchy/pull/972\r\n* @saeedvaziry made their first contribution in https://github.com/basecamp/omarchy/pull/917\r\n* @jonnyace made their first contribution in https://github.com/basecamp/omarchy/pull/906\r\n* @iamobservable made their first contribution in https://github.com/basecamp/omarchy/pull/874\r\n* @Chris24680 made their first contribution in https://github.com/basecamp/omarchy/pull/863\r\n* @rajayonin made their first contribution in https://github.com/basecamp/omarchy/pull/852\r\n* @vlofgren made their first contribution in https://github.com/basecamp/omarchy/pull/823\r\n* @jardahrazdera made their first contribution in https://github.com/basecamp/omarchy/pull/822\r\n* @lsc made their first contribution in https://github.com/basecamp/omarchy/pull/820\r\n* @vaibhav-mattoo made their first contribution in https://github.com/basecamp/omarchy/pull/807\r\n* @luigig44 made their first contribution in https://github.com/basecamp/omarchy/pull/795\r\n* @v3rtx made their first contribution in https://github.com/basecamp/omarchy/pull/769\r\n* @rez1coder made their first contribution in https://github.com/basecamp/omarchy/pull/990\r\n* @domingo2000 made their first contribution in https://github.com/basecamp/omarchy/pull/760\r\n* @samuelpecher made their first contribution in https://github.com/basecamp/omarchy/pull/679\r\n* @johanneserhardt made their first contribution in https://github.com/basecamp/omarchy/pull/676\r\n* @chriopter made their first contribution in https://github.com/basecamp/omarchy/pull/941\r\n* @taylorminton made their first contribution in https://github.com/basecamp/omarchy/pull/1003\r\n* @eamonburns made their first contribution in https://github.com/basecamp/omarchy/pull/1001\r\n* @shawnyeager made their first contribution in https://github.com/basecamp/omarchy/pull/1008\r\n* @ankurkotwal made their first contribution in https://github.com/basecamp/omarchy/pull/871\r\n* @guilhermetk made their first contribution in https://github.com/basecamp/omarchy/pull/1023\r\n* @remshams made their first contribution in https://github.com/basecamp/omarchy/pull/1041\r\n* @Kasui92 made their first contribution in https://github.com/basecamp/omarchy/pull/1056\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.13.0...v2.0.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.0",
+    "published": "2025-08-25T14:11:33Z"
+  }
+]

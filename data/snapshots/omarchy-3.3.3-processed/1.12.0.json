@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.12.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add Osaka Jade theme to default collection by @Justikun\r\n* Add Style > Font as a walker interface in Omarchy menu rather than shelling out by @dhh\r\n* Add Style > Font changes will now be reflected in Waybar, SwayOSD, fontconfig as well by @dhh\r\n* Add Install > Editor section in Omarchy menu with common options for VSCode, Cursor, and Zed by @dhh\r\n* Add Install > Font with options for Meslo, Fira Code, Victor Code, Bitstream Vera common options by @dhh\r\n* Add Setup > Power Profiles to change powerprofilectl options via Omarchy menu by @dhh\r\n* Add transcode-video-1080p, transcode-video-4k, transcode-png2jpg functions for common media workflows by @dhh\r\n* Fix wrong workspace number descriptions in hyprland default binds by @pastr\r\n* Fix broken multicast dns config for printers by @oppegard\r\n* Fix that escaping out of Install > Package and Remove > Package shouldn't ask for sudo in Omarchy menu by @dhh\r\n* Fix the stuck Omarchy menu by upgrading to latest Walker and restarting the service by @dhh\r\n* Fix Remove > Theme selector wasn't working right by @gyllen + @xadcv\r\n* Fix screensaver should always use a black background and hide the cursor by @manuel1618\r\n\r\n### New Osaka Jade theme\r\n\r\n![osaka-jade-theme](https://github.com/user-attachments/assets/0bd11127-47ff-413a-bd2e-fecf8fe64c8e)\r\n\r\n### Install > Editor\r\n\r\n<img width=\"656\" height=\"534\" alt=\"image\" src=\"https://github.com/user-attachments/assets/412a9e04-a4c7-4330-99f5-bbad46741595\" />\r\n\r\n### Style > Font\r\n\r\n<img width=\"848\" height=\"1428\" alt=\"image\" src=\"https://github.com/user-attachments/assets/528a2b45-13fd-4ac7-be69-2cebd7ed8ac8\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.12.0",
+    "published": "2025-08-07T11:13:22Z"
+  },
+  {
+    "version": "1.12.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @Justikun made their first contribution in https://github.com/basecamp/omarchy/pull/514\r\n* @xadcv made their first contribution in https://github.com/basecamp/omarchy/pull/505\r\n* @pastr made their first contribution in https://github.com/basecamp/omarchy/pull/522\r\n* @oppegard made their first contribution in https://github.com/basecamp/omarchy/pull/521\r\n* @manuel1618 made their first contribution in https://github.com/basecamp/omarchy/pull/526\r\n* @gyllen made their first contribution in https://github.com/basecamp/omarchy/pull/533\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.11.0...v1.12.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.12.0",
+    "published": "2025-08-07T11:13:22Z"
+  }
+]

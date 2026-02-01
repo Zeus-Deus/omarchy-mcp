@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Backgrounds #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "All the backgrounds for Omarchy live in ~/.config/omarchy/[theme]/backgrounds. If you want to add an extra background image to, say, the nord theme, you just put the file in ~/.config/omarchy/nord/backgrounds.\n\n~/.config/omarchy/[theme]/backgrounds\n\n~/.config/omarchy/nord/backgrounds\n\nYou can do this most easily by going to Install > Style > Background in the Omarchy Menu. That'll bring up the folder where the backgrounds for that theme is stored. Hit Super + Shift + F to start another file manager, find your background, copy it over.  Now it'll be included in the cycle of backgrounds you can move between using Super + Ctrl + Space.\n\nYou can find a huge collection of cool curated backgrounds on https://github.com/dharmx/walls."
+}

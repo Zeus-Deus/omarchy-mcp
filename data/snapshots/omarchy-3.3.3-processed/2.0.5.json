@@ -1,0 +1,20 @@
+[
+  {
+    "version": "2.0.5",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix package repository order so Arch defaults come before Omarchy Package Repository by @dhh\r\n* Fix Omarchy branch name should be exposed in the About screen by @dhh\r\n* Fix node.js is needed for a full Laravel installation by @roberto-aguilar\r\n* Fix new installs should use woff2-font-awesome instead of ttf-font-awesome per Font Awesome 7.0 by @dhh\r\n* Fix strange case where walker-bin went missing by @dhh\r\n* Fix Waybar shouldn't restart after unlock now that we've fixed the stacking problem by @dhh\r\n* Fix snapper usage for custom btrfs setups by @michielryvers + @ryanrhughes",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.5",
+    "published": "2025-08-28T09:16:06Z"
+  },
+  {
+    "version": "2.0.5",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @roberto-aguilar made their first contribution in https://github.com/basecamp/omarchy/pull/1201\r\n* @michielryvers made their first contribution in https://github.com/basecamp/omarchy/pull/1160\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.0.4...v2.0.5",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.5",
+    "published": "2025-08-28T09:16:06Z"
+  }
+]

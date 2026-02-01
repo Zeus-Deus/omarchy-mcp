@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "System sleep #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "PCs have long have a tortured relationship with suspend and hibernation. It seems to be very difficult for manufacturers to consistently get these right, although many do. But because it's not uniformly supported, Omarchy defaults to only offering lock, reboot, and shutdown in the default system menu. If you want suspend or hibernation, you'll have to turn it on.\n\nYou enable suspend under Setup > System Sleep > Enable Suspend. That just reveals the option under System (or Super + Esc), and then you can see if it works consistently on your system. If not, you can turn it off again using Setup > System Sleep > Disable Suspend.\n\nYou enable hibernation under Setup > System Sleep > Enable Hibernation. That'll create a /swap subvolume on your boot drive the size of our physical RAM allocation, so make sure you have plenty of room to spare. On a 32GB machine, you'll always need 32GB+ free for this volume.\n\nOnce enabled, you'll see the hibernate option under System (or Super + Esc), and then you can see if it works consistently on your system. If not, you can turn it off again using Setup > System Sleep > Disable Hibernate.\n\nWith hibernation turned on, you'll also get suspend-to-hibernate, which migrates the machine from suspend to hibernate after 30 minutes (as long as its not connected to power)."
+}

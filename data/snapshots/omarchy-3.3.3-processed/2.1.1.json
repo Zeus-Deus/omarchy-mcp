@@ -1,0 +1,20 @@
+[
+  {
+    "version": "2.1.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add screenrecordings with audio on `ALT + SHIFT + PRINT` for region and `CTRL + ALT + SHIFT + PRINT` for full screen and to _Capture > Screenrecording_  by @dhh \r\n* Add support for 6GHz Wi-Fi via wireless-regdb by @eclecticc \r\n* Add visual feedback when switching between audio outputs on `Super + Mute` by @cluah\r\n* Add _Update > Password_ for setting a new LUKS drive encryption password and setting user password by @dhh\r\n* Add _Install > Development > Clojure_ by @naxels\r\n* Add PHP Debugger as part of PHP install by @roberto-aguilar \r\n* Add new ship-at-sea background for Matte Black theme by @dhh\r\n* Add numlock by default in new `hypr/input.conf` files by @bftanase\r\n* Fix ristretto cursor inside selection coloring by @ollymarkey\r\n* Fix firewall wouldn't stay on after a restart by @martinmose\r\n* Fix screenshots should happen against a frozen screen by @rsd\r\n* Fix omarchy-install-docker-dbs should work from cli with parameters by @roberto-aguilar\r\n* Fix _Install > Docker DB > PostgresSQL_ should use pgsql17 by @aliismayilov\r\n* Fix _Install > AI > Gemini_ should source from AUR by @keyfer\r\n* Fix _Install > Gaming > Minecraft_ should source from AUR by @roberto-aguilar \r\n* Fix _Install > Package/AUR_ should show backtrace when package fails to install by @dhh \r\n* Fix VPN DNS resolution in DHCP mode by @jardahrazdera \r\n* Fix new-terminal cwd when your current directory has spaces by @dhh \r\n* Fix waybar clock should use local correct names for the day/month by @arni1981\r\n* Fix Firefox opacity problems in some situations by @typeshaper\r\n* Fix YouTube opacity setting for all subdomains by @mgbaron\r\n* Fix mako config duplication by @pipetogrep \r\n* Fix git configs should be kept in `~/.config/gitconfig` by default by @esteban_ba\r\n* Fix video acceleration on Intel GPUs by @eclecticc\r\n* Fix accessing direct menus, like system and theme, should exit directly by @iccodes\r\n* Fix mDNS resolution for .local domains for CUPS printer setup by @jardahrazdera",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.1.1",
+    "published": "2025-09-09T19:37:39Z"
+  },
+  {
+    "version": "2.1.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @ncr made their first contribution in https://github.com/basecamp/omarchy/pull/1376\r\n* @mgbaron made their first contribution in https://github.com/basecamp/omarchy/pull/1480\r\n* @rsd made their first contribution in https://github.com/basecamp/omarchy/pull/1471\r\n* @Esteban-Bermudez made their first contribution in https://github.com/basecamp/omarchy/pull/1459\r\n* @martinmose made their first contribution in https://github.com/basecamp/omarchy/pull/1429\r\n* @bftanase made their first contribution in https://github.com/basecamp/omarchy/pull/1443\r\n* @typeshaper made their first contribution in https://github.com/basecamp/omarchy/pull/1427\r\n* @ollymarkey made their first contribution in https://github.com/basecamp/omarchy/pull/1426\r\n* @arni1981 made their first contribution in https://github.com/basecamp/omarchy/pull/1380\r\n* @keyfer made their first contribution in https://github.com/basecamp/omarchy/pull/1517\r\n* @aliismayilov made their first contribution in https://github.com/basecamp/omarchy/pull/1524\r\n* @naxels made their first contribution in https://github.com/basecamp/omarchy/pull/1238\r\n* @cluah made their first contribution in https://github.com/basecamp/omarchy/pull/1474\r\n* @eclecticc made their first contribution in https://github.com/basecamp/omarchy/pull/1368\r\n* @mrjoedang made their first contribution in https://github.com/basecamp/omarchy/pull/1152\r\n* @iccodes made their first contribution in https://github.com/basecamp/omarchy/pull/1100\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.1.0...v2.1.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.1.1",
+    "published": "2025-09-09T19:37:39Z"
+  }
+]

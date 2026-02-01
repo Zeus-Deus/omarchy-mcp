@@ -1,0 +1,29 @@
+[
+  {
+    "version": "3.3.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.3.2.iso\r\n- SHA256: 64dcb48029cca7668170e7d2a9b6b95058d522d6fe8b3588f14a35e687ba903d",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.2",
+    "published": "2026-01-08T23:23:37Z"
+  },
+  {
+    "version": "3.3.2",
+    "section_id": 1,
+    "title": "Fixes",
+    "content": "* Fix Nvidia driver installation issue causing silent error failing mkinicpio build by @ryanrhughes + @PhaedrusFlow",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.2",
+    "published": "2026-01-08T23:23:37Z"
+  },
+  {
+    "version": "3.3.2",
+    "section_id": 2,
+    "title": "Additions",
+    "content": "* Add omarchy-update.log to the update process for debugging and error checking by @ryanrhughes \r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.3.1...v3.3.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.2",
+    "published": "2026-01-08T23:23:37Z"
+  }
+]

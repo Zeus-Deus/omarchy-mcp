@@ -1,0 +1,20 @@
+[
+  {
+    "version": "2.0.4",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix pinning package no longer needed after we shrinked the Omarchy repo by @dhh \r\n* Fix iwd service shouldn't start during installation by @dhh \r\n* Fix keyboard layout at install by @bastnic in https://github.com/basecamp/omarchy/pull/1188\r\n* Fix clicking on the battery icon should open the power menu by @cstrickjacke in https://github.com/basecamp/omarchy/pull/1178",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.4",
+    "published": "2025-08-28T05:11:44Z"
+  },
+  {
+    "version": "2.0.4",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @bastnic made their first contribution in https://github.com/basecamp/omarchy/pull/1188\r\n* @cstrickjacke made their first contribution in https://github.com/basecamp/omarchy/pull/1178\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.0.3...v2.0.4",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.4",
+    "published": "2025-08-28T05:11:44Z"
+  }
+]

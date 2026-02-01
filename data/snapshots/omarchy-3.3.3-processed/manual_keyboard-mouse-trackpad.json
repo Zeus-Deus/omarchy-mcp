@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Keyboard, Mouse, Trackpad #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Hyprland let's you configure all your inputs in great detail. You can change the keyboard repeat to be supersonically fast or make the trackpad use natural scrolling. You change all of it in ~/.config/hypr/input.conf, which you can also reach via Setup > Input in the Omarchy menu (Super + Alt + Space).\n\n~/.config/hypr/input.conf\n\ninput {\n  # Use multiple keyboard layouts and switch between them with Alt + Space\n  kb_layout = us,dk\n  kb_options = compose:caps,grp:alt_space_toggle\n\n  # Change speed of keyboard repeat\n  repeat_rate = 40\n  repeat_delay = 600\n\n  # Increase sensitity for mouse/trackpack (default: 0)\n  sensitivity = 0.35\n\n\n  touchpad {\n    # Use natural (inverse) scrolling\n    natural_scroll = true\n\n    # Use two-finger clicks for right-click instead of lower-right corner\n    clickfinger_behavior = true\n\n    # Control the speed of your scrolling\n    scroll_factor = 0.3\n  }\n}\n\n# Scroll faster in the terminal\nwindowrule = scrolltouchpad 1.5, tag:terminal\n\ninput {\n  # Use multiple keyboard layouts and switch between them with Alt + Space\n  kb_layout = us,dk\n  kb_options = compose:caps,grp:alt_space_toggle\n\n  # Change speed of keyboard repeat\n  repeat_rate = 40\n  repeat_delay = 600\n\n  # Increase sensitity for mouse/trackpack (default: 0)\n  sensitivity = 0.35\n\n\n  touchpad {\n    # Use natural (inverse) scrolling\n    natural_scroll = true\n\n    # Use two-finger clicks for right-click instead of lower-right corner\n    clickfinger_behavior = true\n\n    # Control the speed of your scrolling\n    scroll_factor = 0.3\n  }\n}\n\n# Scroll faster in the terminal\nwindowrule = scrolltouchpad 1.5, tag:terminal\n\nYou can see all the input options on the Hyprland wiki for inputs.\n\nOn some keyboards, it's not convenient to use the primary meta key (Windows/cmd key) as SUPER. You can change this to be ALT instead using this change:\n\ninput {\n  kb_options = compose:caps,altwin:swap_alt_win\n}\n\ninput {\n  kb_options = compose:caps,altwin:swap_alt_win\n}"
+}

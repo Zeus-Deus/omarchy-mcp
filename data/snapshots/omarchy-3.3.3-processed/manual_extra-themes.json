@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Extra themes #",
+  "version": "3.3.3",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "You can install any of these themes by copying the GitHub URL and selecting Install > Style > Theme via the Omarchy menu (Super + Alt + Space). If you want to remove it again, just use Remove > Style > Theme and select it there.\n\nInstall > Style > Theme\n\nRemove > Style > Theme\n\nCatppuccin Mocha Dark"
+}
