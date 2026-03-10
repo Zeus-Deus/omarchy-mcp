@@ -84,7 +84,7 @@ Create or edit `~/.config/opencode/opencode.json`:
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "system",
+  "autoupdate": false,
   "mcp": {
     "omarchy-kb": {
       "type": "local",
