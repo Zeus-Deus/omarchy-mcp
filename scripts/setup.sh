@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🚀 Setting up Omarchy MCP Server (v3.3.3)..."
+echo "🚀 Setting up Omarchy MCP Server (v3.4.2)..."
 
 # Create directories
 mkdir -p data/processed/omarchy

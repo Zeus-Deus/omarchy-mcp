@@ -1,0 +1,20 @@
+[
+  {
+    "version": "2.0.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix black-screen-of-death installs following [abseil-cpp package release](https://archlinux.org/packages/extra/x86_64/abseil-cpp/) at 2025-08-26 22:15 UTC that broke installs by @dhh\r\n* Fix About info display by @tahayvr \r\n* Fix font size for About when system font size has changed by @dhh\r\n\r\nUpdate as per usual using _Update > Omarchy_ from the Omarchy Menu.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.2",
+    "published": "2025-08-27T10:53:57Z"
+  },
+  {
+    "version": "2.0.2",
+    "section_id": 1,
+    "title": "Fixing black-screen-of-death installs",
+    "content": "If you installed Omarchy via the ISO between 2025-08-26 22:15 UTC and 2025-08-27 12:50 UTC, you'll likely have hit the black-screen-of-death after installation. You can fix it with these steps:\r\n\r\n1) CTRL + ALT + F2\r\n2) Login with your credentials\r\n3) curl -fsSL https://omarchy.org/patch/pin-abseil-cpp | bash\r\n\r\nThis will restore the working version of abseil-cpp and restart your system. Now you're back in business!\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.0.1...v2.0.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.2",
+    "published": "2025-08-27T10:53:57Z"
+  }
+]

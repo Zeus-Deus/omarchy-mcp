@@ -5,7 +5,7 @@ import json
 import os
 from packaging import version
 
-def download_releases(max_version="3.3.3"):
+def download_releases(max_version="3.4.2"):
     """Download all release notes up to max_version"""
     
     output_dir = "/app/data/raw/omarchy_releases"
@@ -52,4 +52,4 @@ def download_releases(max_version="3.3.3"):
     return len(collected)
 
 if __name__ == "__main__":
-    download_releases("3.3.3")
+    download_releases("3.4.2")

@@ -1,0 +1,29 @@
+[
+  {
+    "version": "3.1.7",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# Omarchy 3.1.7\r\n\r\nUpdate existing installations using Update > Omarchy from Omarchy menu (Super + Alt + Space) or download ISO for new installs:.\r\n\r\nDownload: https://iso.omarchy.org/omarchy-3.1.7.iso\r\nSHA256: e264648d0b96c49a664fea82c92d9aa16737913cdec29eb5c8e4154e9665bbae",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.7",
+    "published": "2025-11-09T06:48:15Z"
+  },
+  {
+    "version": "3.1.7",
+    "section_id": 1,
+    "title": "What's Changed",
+    "content": "* Fix hyprland config in pip.conf to address newly invalid rule/parameter errors after hyprland update by @sk4rrjin / @mikailbayram\r\n* Fix hyprland replacing hyprland-qtutils with hyprland-guiutils by @tibbe",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.7",
+    "published": "2025-11-09T06:48:15Z"
+  },
+  {
+    "version": "3.1.7",
+    "section_id": 2,
+    "title": "New Contributors",
+    "content": "* @sk4rrjin made their first contribution in https://github.com/basecamp/omarchy/pull/3258\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.1.6...v3.1.7",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.7",
+    "published": "2025-11-09T06:48:15Z"
+  }
+]

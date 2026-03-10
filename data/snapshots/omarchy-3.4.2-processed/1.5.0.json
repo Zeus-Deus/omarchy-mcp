@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.5.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add support for light themes with the `theme/light.mode` file flag by @dhh\r\n* Add Rose Pine as the first included light mode theme by @dhh\r\n* Add Fido2 setup with sudo authentication by @icehunt \r\n* Add default firewall config w/ Docker protection using ufw by @dhh in #201 \r\n* Add git stash/pop before `omarchy-update` to preserve more user changes without intervention by @dhh\r\n* Add `omarchy-setup-fingerprint --remove` to remove fingerprint setup (also available through TUI) by @dhh\r\n* Add confirmation before updating system packages on `omarchy-update` by @dhh\r\n* Add theme picking to the Omarchy TUI options by @dhh\r\n* Fix nautilus previews shouldn't have transparency by @dhh \r\n* Fix that all installers should have a bash shebang line by @dhh \r\n* Fix that starting apps with `uwsm app -- [app]` is preferred when running under uwsm by @abenz1267 in #182 \r\n* Fix that all theme backgrounds are included instead of downloaded to match 3rd party theme layouts by @dhh\r\n* Fix killing waybar fully instead of using USRSIG2 to attempt fixing the stacking waybar on wake problem by @dhh \r\n* Fix lack of syntax highlight with waybar config editing by renaming to `.config/waybar/config.jsonc` by @nullndr in #169 \r\n* Fix missing docker-buildx package by @Shaps in #206\r\n* Fix btop theme should live update by @tahayvr in #211 \r\n* Fix that Pinta package isn't installing cleanly so make it skippable during first setup by @dhh\r\n* Fix installing wifi network services if ethernet was used archinstall was broken by @t0gun\r\n\r\nNew Rose Pine light theme:\r\n\r\n<img width=\"3840\" height=\"2160\" alt=\"omarchy-rose-pine\" src=\"https://github.com/user-attachments/assets/7bcc440e-6759-4c47-bd9f-b861e389d7c4\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.5.0",
+    "published": "2025-07-18T00:16:10Z"
+  },
+  {
+    "version": "1.5.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @Shaps made their first contribution in https://github.com/basecamp/omarchy/pull/206\r\n* @icehunt made their first contribution in https://github.com/basecamp/omarchy/pull/171\r\n* @t0gun made their first contribution in https://github.com/basecamp/omarchy/pull/210\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.4.1...v1.5.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.5.0",
+    "published": "2025-07-18T00:16:10Z"
+  }
+]
