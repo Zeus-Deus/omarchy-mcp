@@ -101,9 +101,23 @@ Create or edit `~/.config/opencode/opencode.json`:
 }
 ```
 
-### 5. Use in Cursor / OpenCode
+### 5. Configure Claude Code
 
-1. Open your IDE (Cursor or OpenCode)
+Run the following command in your terminal:
+
+```bash
+claude mcp add --scope user omarchy-kb -- docker exec -i omarchy-mcp-server python /app/mcp_server/main.py
+```
+
+Restart Claude Code after adding the configuration. Verify the server is connected:
+
+```bash
+claude mcp list
+```
+
+### 6. Use in Cursor / OpenCode / Claude Code
+
+1. Open your IDE (Cursor, OpenCode, or Claude Code)
 2. Switch to **Agent mode** (click "Ask" dropdown in bottom-left, select "Agent")
 3. In the chat, type queries like:
 
