@@ -5,7 +5,7 @@ A Model Context Protocol (MCP) server providing semantic search over Omarchy, Ar
 ## Version Information
 
 - **Omarchy:** v3.5.1 (pinned)
-- **Omarchy Releases:** All versions up to v3.5.1 (51 releases)
+- **Omarchy Releases:** All versions up to v3.5.1
 - **Arch Wiki:** Latest (updated via script)
 - **Hyprland Wiki:** Latest (updated via script)
 
@@ -150,12 +150,12 @@ The MCP server provides these tools:
 
 The knowledge base includes:
 
-| Source           | Documents   | Priority    | Description                                           |
-| ---------------- | ----------- | ----------- | ----------------------------------------------------- |
-| Omarchy          | 65          | 1 (highest) | Omarchy-specific documentation and customizations     |
-| Omarchy Releases | ~100 chunks | 1 (highest) | GitHub release notes with changelogs and new features |
-| Hyprland         | 302         | 2           | Hyprland window manager documentation                 |
-| Arch Wiki        | 2,493       | 3           | Base Arch Linux documentation                         |
+| Source           | Priority    | Description                                           |
+| ---------------- | ----------- | ----------------------------------------------------- |
+| Omarchy          | 1 (highest) | Omarchy-specific documentation and customizations     |
+| Omarchy Releases | 1 (highest) | GitHub release notes with changelogs and new features |
+| Hyprland         | 2           | Hyprland window manager documentation                 |
+| Arch Wiki        | 3           | Base Arch Linux documentation                         |
 
 **Priority System:** When conflicts occur, Omarchy documentation takes precedence over Hyprland and Arch.
 
