@@ -70,19 +70,31 @@ sed -i "s|Setting up Omarchy MCP Server (v[0-9.]*)|Setting up Omarchy MCP Server
 echo "  ✅ Updated scripts/setup.sh"
 
 # Update README.md
-sed -i "s|Omarchy: v[0-9.]* (pinned)|Omarchy: v$NEW_VERSION (pinned)|g" README.md
-sed -i "s|Omarchy Releases: All versions up to v[0-9.]*|Omarchy Releases: All versions up to v$NEW_VERSION|g" README.md
+sed -i "s|\*\*Omarchy:\*\* v[0-9.]* (pinned)|**Omarchy:** v$NEW_VERSION (pinned)|g" README.md
+sed -i "s|\*\*Omarchy Releases:\*\* All versions up to v[0-9.]*|**Omarchy Releases:** All versions up to v$NEW_VERSION|g" README.md
+sed -i "s|This server contains Omarchy v[0-9.]* documentation|This server contains Omarchy v$NEW_VERSION documentation|g" README.md
 sed -i "s|Restore Omarchy v[0-9.]* docs from snapshot|Restore Omarchy v$NEW_VERSION docs from snapshot|g" README.md
-sed -i "s|documentation and release notes remain at v[0-9.]* (pinned)|documentation and release notes remain at v$NEW_VERSION (pinned)|g" README.md
+sed -i "s|documentation and release notes remain at v[0-9.]* (pinned version)|documentation and release notes remain at v$NEW_VERSION (pinned version)|g" README.md
 sed -i "s|omarchy-[0-9.]*-processed|omarchy-$NEW_VERSION-processed|g" README.md
 echo "  ✅ Updated README.md"
 
 # ============================================================
-# STEP 2: Download fresh Omarchy documentation
+# STEP 2: Download fresh Omarchy docs + latest Arch wiki
 # ============================================================
 echo ""
-echo "📥 Step 2: Downloading fresh Omarchy documentation..."
+echo "📥 Step 2: Downloading fresh documentation..."
+
+# Force fresh Omarchy pull: wipe stale website/manual/releases page so
+# 3_download_omarchy.sh actually refetches them (its guards skip if present).
+rm -rf data/raw/omarchy/learn.omacom.io
+rm -rf data/raw/omarchy/omarchy.org
+rm -f data/raw/omarchy/releases.html
+
+echo "  📥 Omarchy manual + website..."
 ./scripts/3_download_omarchy.sh
+
+echo "  📥 Arch wiki (latest)..."
+./scripts/1_download_archwiki.sh
 
 # ============================================================
 # STEP 3: Process documentation inside Docker container
@@ -97,7 +109,19 @@ if ! docker-compose ps | grep -q "Up"; then
     sleep 10
 fi
 
-# Process manual pages
+# Refresh Hyprland wiki (runs inside the container, which has git)
+echo "  📥 Hyprland wiki (latest)..."
+docker exec omarchy-mcp-server bash scripts/2_download_hyprland.sh
+
+# Process Arch wiki
+echo "  📄 Processing Arch wiki..."
+docker exec omarchy-mcp-server python scripts/4_clean_archwiki.py
+
+# Process Hyprland wiki
+echo "  📄 Processing Hyprland wiki..."
+docker exec omarchy-mcp-server python scripts/5_clean_hyprland.py
+
+# Process Omarchy manual pages
 echo "  📄 Processing Omarchy manual..."
 docker exec omarchy-mcp-server python scripts/6_clean_omarchy.py
 
