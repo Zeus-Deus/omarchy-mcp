@@ -1,0 +1,38 @@
+[
+  {
+    "version": "3.2.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.2.1.iso\r\n- SHA256: a9d26b1d053cab92326031a2b4c19b337afb8a0ea7192077fa21cf629728d9cc",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.1",
+    "published": "2025-11-26T07:29:47Z"
+  },
+  {
+    "version": "3.2.1",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "* Add release channel and last update date for packages to the About screen by @dhh\r\n* Add copy-url-to-clipboard (hotkey `Alt + Shift + L`) for Brave by @Blinkuu",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.1",
+    "published": "2025-11-26T07:29:47Z"
+  },
+  {
+    "version": "3.2.1",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "* Fix screensaver to be truly fullscreen on Ghostty/Kitty as it is on Alacritty by @felixzsh\r\n* Fix `omarchy-refresh-pacman` should backup `/etc/pacman.conf` and `/etc/pacman.d/mirrorlist` before overwriting by @dhh\r\n* Fix PDF viewer should start in floating mode (like image and video viewers) by @dhh\r\n* Fix Steam + Zed installers to give user a chance to pick the correct vulkan backend for their system by @dhh\r\n* Fix screensaver should not include the new experimental (and very slow) `dev_worm` effect by @MirasMustimov\r\n* Fix _Remove > TUI_ to work with new xdg-terminal setup by @neurapy\r\n* Fix window pop wasn't applying the right tag and required double invocation to undo by @dhh\r\n* Fix Bluetooth icon wouldn't switch to off when turning off the BT adapter in BlueTUI by @dhh\r\n* Fix `omarchy-refresh-walker` should ensure that Elephant service is running + add Walker to autostart by @dhh\r\n* Fix prevent wifi prompt from showing during ISO install by @ryanrhughes",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.1",
+    "published": "2025-11-26T07:29:47Z"
+  },
+  {
+    "version": "3.2.1",
+    "section_id": 3,
+    "title": "New Contributors",
+    "content": "* @felixzsh made their first contribution in https://github.com/basecamp/omarchy/pull/3499\r\n* @neurapy made their first contribution in https://github.com/basecamp/omarchy/pull/3552\r\n* @MirasMustimov made their first contribution in https://github.com/basecamp/omarchy/pull/3553\r\n* @Blinkuu made their first contribution in https://github.com/basecamp/omarchy/pull/3017\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.2.0...v3.2.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.1",
+    "published": "2025-11-26T07:29:47Z"
+  }
+]

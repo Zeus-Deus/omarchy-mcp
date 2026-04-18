@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Shell Functions #",
+  "version": "3.5.1",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Omarchy comes with a set of shell functions to simplify common tasks and encapsulate convoluted parameter calls.\n\ncompress [file/dir]: Create a tar.gz archive from the file/dir.\n\ndecompress [file.tar.gz]: Expand a tar.gz file.\n\ndecompress [file.tar.gz]\n\niso2sd [image.iso]: Create a bootable drive on an SD card using the referenced iso file and picking the drive interactively.\n\nformat-drive: Select an entire disk to format with a single exFAT partition (which works on Windows and macOS too). Be careful!\n\nimg2jpg: Turn any image into a near-full quality JPG.\n\nimg2jpg-small: Turn any image into a near-full quality 1080p-wide JPG.\n\nimg2jpg-medium: Turn any image into a near-full quality 1800p-wide JPG.\n\nimg2png: Turn any image into a compressed-but-lossless PNG.\n\ntranscode-video-1080p: Transcode a video to a good-balance 1080p MP4.\n\ntranscode-video-1080p\n\ntranscode-video-4K: Transcode a video to a good-balance 4K MP4.\n\nIdeal for doing web development with localhost secure-context privileges against a remote box.\n\nfip: Forward one or more ports from a remote host to localhost via SSH.\n\ndip: Disconnect one or more forwarded ports.\n\nlip: List all active SSH port forwards.\n\nSay you start a dev server on port 3000 on a machine accessible as nyc-dev, then you can run fip nyc-dev 3000 to forward that port, so localhost:3000 actually reaches nyc-dev:3000, but without the need for SSL certificates to establish the secure context needed for testing web sockets or the like."
+}

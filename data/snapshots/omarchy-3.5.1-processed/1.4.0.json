@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.4.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add menu-based theme switcher by @npenza in #154\r\n* Add collapsing tray for dropbox/keyboard/zoom icons in top bar by @leonhazen in #130\r\n* Add new matte black theme by @tahayvr\r\n* Add Omarchy TUI for easier theme/setup/update/manual access by @npenza and @dhh in #116\r\n* Add theme installer for git-based third-party themes by @npenza in #150\r\n* Add margin to the notifications to better offset them from top-right application by @ryanrhughes in #160 \r\n* Add uwsm to improve boot screen transition to Hyprland without line noise by @ryanrhughes in #140\r\n* Add three different icons for increasing volume in top bar by @kieeps in #158 \r\n* Add default .config/fontconfig/fonts.conf to set Liberation Sans/Serif + Caskaydia as defaults in more places by @dhh\r\n* Add color and pacman fun to pacman installer by @rockorager\r\n* Add user-editable `.config/wofi/style.css` by @cannikin\r\n* Add better theme color setting for waybar by @DrInfinite in #156\r\n* Fix theme switcher to work with real directories, not just symlinks by @dhh \r\n* Fix that active window to receive focus so URLs clicked in terminals actual show in browser by @apiguy in #152 \r\n* Fix XCompose emoji and shortcut support for Typora by @dhh\r\n* Fix fingerprint setup script compatibility with more sensors by @deanpcmad and @anagrius\r\n* Fix xdg-data-dir env not being necessary for wofi and causing problems with wine/flatpak by @abenz1267 in #184\r\n* Fix flaky installs of spotify/zoom/etc that need a keyserver by adding backups by @abradburne in #180\r\n\r\nNew theme menu switcher: \r\n\r\n<img width=\"498\" height=\"738\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a62477eb-3dda-4698-889a-a37bed8ce31e\" />\r\n\r\nNew Omarchy TUI:\r\n\r\n<img width=\"1382\" height=\"782\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5f5adf59-ef2f-4fe0-9131-d3a332b755f3\" />\r\n\r\nNew Matte Black theme:\r\n\r\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6589447f-a39c-4258-a7e9-67b006a530cc\" />\r\n\r\nRun `omarchy-update` to get into this version.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.4.0",
+    "published": "2025-07-16T03:04:42Z"
+  },
+  {
+    "version": "1.4.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @kieeps made their first contribution in https://github.com/basecamp/omarchy/pull/158\r\n* @nullndr made their first contribution in https://github.com/basecamp/omarchy/pull/131\r\n* @deanpcmad made their first contribution in https://github.com/basecamp/omarchy/pull/172\r\n* @tahayvr made their first contribution in https://github.com/basecamp/omarchy/pull/164\r\n* @abradburne made their first contribution in https://github.com/basecamp/omarchy/pull/180\r\n* @abenz1267 made their first contribution in https://github.com/basecamp/omarchy/pull/184\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.3.2...v1.4.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.4.0",
+    "published": "2025-07-16T03:04:42Z"
+  }
+]

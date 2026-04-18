@@ -1,0 +1,20 @@
+[
+  {
+    "version": "3.0.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "Existing installations can upgrade as per-normal using `Update > Omarchy`. \r\n\r\nNew installations should download the fresh, all-inclusive ISO: https://iso.omarchy.org/omarchy-3.0.2.iso. \r\n\r\n**ISO SHA256**: `8d136a99d74ef534b57356268e5dad392a124c7e28487fc00330af9105fc6626`",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.0.2",
+    "published": "2025-09-28T21:11:45Z"
+  },
+  {
+    "version": "3.0.2",
+    "section_id": 1,
+    "title": "What's Changed",
+    "content": "* Fix osaka jade theme for Ghostty by @dhh\r\n* Adjust Ghostty scrollfactor by @dhh \r\n* Limit matching pattern of omarchy-launch-or-focus to prevent incorrect matches by @ryanrhughes \r\n* Improve theme-set-vscode to support jsonc and respect symlinks by @OmarSkalli \r\n* Hide hyperland cursor while typing by @js\r\n* Fix Matte Black theme Ghostty and vscode configs by @tahayvr\r\n* Fix ghostty config comment typo by @John-Lin\r\n* Add Update > Hardware > Audio for restarting pipewire service by @dhh \r\n* Install libyaml before attempting to install ruby by @vrinek\r\n* Add Helium browser to supported browsers list in omarchy-launch-webapp by @Furyfree\r\n* Add Apple SPI keyboard support for MacBook8,1, MacBook9,1, MacBook10,1 by @e-minguez + @joelgaff\r\n* Add support for Broadcom BCM4331 chipset alongside BCM4360 for MacBooks by @mrlarsendk\r\n* Fix for '(null)' display on AirPod source selection by @shawnyeager\r\n* Fix omarchy-tui-install not keeping $TERMINAL by @djordje\r\n* Use output display or region geometry to record by @iamobservable\r\n\r\n### ISO Updates\r\n* Add missing alsa-firmware by @ryanrhughes\r\n* Fix hanging issue for normal boot when using Ventoy by @ryanrhughes \r\n* Update to archiso v86 by @ryanrhughes \r\n* Update to [archinstall v3.0.11](https://github.com/archlinux/archinstall/releases/tag/3.0.11) by @ryanrhughes \r\n* Fix invalid keyboard options by @ryanrhughes + @rixlabs + @CastilhoBorges\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.0.1...v3.0.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.0.2",
+    "published": "2025-09-28T21:11:45Z"
+  }
+]

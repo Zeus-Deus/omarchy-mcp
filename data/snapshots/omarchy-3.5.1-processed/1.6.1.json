@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.6.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add themed on-screen displays for brightness and volume by @aifrim\r\n* Add player controls to on-screen display by @precision\r\n* Add Sunset Lake as the first background for Tokyo Night by @dhh\r\n* Add MariaDB as option for Docker DB setups by @spdawnson\r\n* Add an increased pamlock limit from 3->10 to prevent sudo errors by @dhh\r\n* Fix Satty screenshot manipulation window should be a fixed size by @mtk3d\r\n* Fix package db refresh for nvidia install by @abenz1267 \r\n* Fix inputrc should only load on interactive terminals by @dhh\r\n* Fx walker css url by @ludo237\r\n\r\nUse `omarchy-update all` if you're coming from a version prior to 1.6.0, otherwise just `omarchy-update`.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.1",
+    "published": "2025-07-23T18:57:35Z"
+  },
+  {
+    "version": "1.6.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @ludo237 made their first contribution in https://github.com/basecamp/omarchy/pull/302\r\n* @spdawson made their first contribution in https://github.com/basecamp/omarchy/pull/297\r\n* @precision made their first contribution in https://github.com/basecamp/omarchy/pull/294\r\n* @aifrim made their first contribution in https://github.com/basecamp/omarchy/pull/288\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.6.0...v1.6.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.1",
+    "published": "2025-07-23T18:57:35Z"
+  }
+]

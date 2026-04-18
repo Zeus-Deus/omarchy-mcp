@@ -1,0 +1,65 @@
+[
+  {
+    "version": "1.6.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add screenshot image manipulation with [satty](https://github.com/gabm/Satty) by @dhh \r\n* Add screenrecording on `ALT + PrintScreen` for region, `ALT + CTRL + PrintScreen` for whole display by @dhh\r\n* Add Walker for app launcher and menus instead of wofi by @ryanrhughes \r\n* Add Cappuccin Latte as the second light theme by @ryanyogan\r\n* Add third Tokyo Night background image by @dhh\r\n* Add audio settings TUI via wiremix to replace the GUI by @roel4d \r\n* Add on-screen overlays for adjusting brightness and volume by @mtk3d, @roel4d \r\n* Add link to community Discord if install fails by @dhh\r\n* Add failed attempts counter and lockout message in hyprlock by @jhosdev\r\n* Add Dropbox as `omarchy-setup-dropbox` or via TUI instead of just installing dependencies that still require setup by @dhh\r\n* Add Docker DBs to TUI > Setup to run MySQL, PostgreSQL, and Redis in Docker DBs by @dhh\r\n* Fix omarchy-refresh-* will now create .bak files instead of prompting to ease upgrades for default flow by @dhh\r\n* Fix auto-stash behavior on updates to not pop existing stashing by @rmacklin\r\n* Fix apps managed by uwsm should also be restarted under uwsm by @dhh\r\n* Fix approach to running migrations to attempt that they won't be missed by @rmacklin \r\n* Fix cleanup hypridle.conf to remove AI-hallucinated options by @dhh \r\n* Fix dancing workspace numbers by @npenza\r\n* Fix zoom was accidentally missing as a default install for a while by @saullbrandao\r\n* Fix the low contrast colors for comments in NeoVim for matte black theme by @tahayvr \r\n* Fix using theme backgrounds correctly by @dhh\r\n* Fix that keyboard layout from archinstall should carry over to Omarchy by @saullrb\r\n* Fix 1px border shouldn't be part of hyprshot screenshots by @al3rez\r\n* Fix F11 should full screen all apps by @saullrb\r\n\r\nTo update, please run `omarchy-update all`. That'll run all existing migrations to ensure that you're fully caught up. Then the next update should just need `omarchy-update` since we changed the migration strategy.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  },
+  {
+    "version": "1.6.0",
+    "section_id": 1,
+    "title": "Screenshot image manipulation",
+    "content": "Now when you hit `PrintScreen` for region, `SHIFT + PrintScreen` for window, or `CTRL + PrintScreen` for whole display, your screenshot will be sent to [satty](https://github.com/gabm/Satty) for manipulation. You can hit `esc` to abort the screenshot or hit `enter` to both place it on the clipboard and save it.\r\n\r\n<img width=\"2350\" height=\"836\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0c5c052a-ea0d-46df-997b-c3ea3525d126\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  },
+  {
+    "version": "1.6.0",
+    "section_id": 2,
+    "title": "Screenrecording for region or window",
+    "content": "The new screenrecording setup starts recording as soon as the notification that says \"Screenrecording starting...\" disappears after hitting `ALT + PrintScreen` (for region) or `CTRL + ALT + PrintScreen` (for whole display). You stop the recording by hitting the same keybinding again. Videos are saved to `~/Videos`.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  },
+  {
+    "version": "1.6.0",
+    "section_id": 3,
+    "title": "Walker is the new app launcher",
+    "content": "Wofi was visibly slow with reordering the app launcher list, and limited in terms of extensions. [Walker](https://github.com/abenz1267/walker) is our new replacement. It should look and feel almost exactly like Wofi, it'll just be way faster, there's now a built-in calculator on \"345+223\" that'll put the result on the clipboard, and you can find any emoji by starting search with a dot, so \":fire\" will find something like \u2764\ufe0f\u200d\ud83d\udd25, which return puts on the clipboard.\r\n\r\nFabulous work by Walker creator @abenz1267 and @ryanrhughes to make all the tweaks required for nailing the Omarchy aesthetic and feel \ud83e\udd18\r\n\r\n<img width=\"1368\" height=\"838\" alt=\"image\" src=\"https://github.com/user-attachments/assets/502ac33c-b7f4-423a-b40c-e0c5ce32ab1f\" />\r\n\r\n<img width=\"1360\" height=\"830\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ce47cca9-a9b9-4c4a-ab89-6258ca0b49d4\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  },
+  {
+    "version": "1.6.0",
+    "section_id": 5,
+    "title": "New third background for Tokyo Night",
+    "content": "This beautiful background is now the third option for Tokyo Night. Remember you can cycle through backgrounds on `SHIFT + SUPER + SPACE`.\r\n\r\n<img width=\"2880\" height=\"1920\" alt=\"2025-07-19-130610_hyprshot\" src=\"https://github.com/user-attachments/assets/25cfdaef-5ce8-4362-b87e-ee61513fac5a\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  },
+  {
+    "version": "1.6.0",
+    "section_id": 6,
+    "title": "Audio settings as TUI",
+    "content": "Now using wiremix instead of pauvcontrol:\r\n\r\n<img width=\"1600\" height=\"1200\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1b86844f-e4d9-4ddd-a580-d66171e0b1ae\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  },
+  {
+    "version": "1.6.0",
+    "section_id": 7,
+    "title": "New Contributors",
+    "content": "* @rmacklin made their first contribution in https://github.com/basecamp/omarchy/pull/215\r\n* @ryanyogan made their first contribution in https://github.com/basecamp/omarchy/pull/212\r\n* @saullrb made their first contribution in https://github.com/basecamp/omarchy/pull/262\r\n* @mtk3d made their first contribution in https://github.com/basecamp/omarchy/pull/274\r\n* @blazskufca made their first contribution in https://github.com/basecamp/omarchy/pull/281\r\n* @andnig made their first contribution in https://github.com/basecamp/omarchy/pull/278\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.5.2...v1.6.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.0",
+    "published": "2025-07-22T23:25:50Z"
+  }
+]

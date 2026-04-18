@@ -1,0 +1,38 @@
+[
+  {
+    "version": "3.5.1",
+    "section_id": 0,
+    "title": "The New Release",
+    "content": "Update existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.5.1-2.iso\r\n- SHA256: f28ce9f6d0d70d2a79ae584e52de7ce3cb5c21c6c1ffb806073db1df2140b03a",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.1",
+    "published": "2026-04-16T14:32:15Z"
+  },
+  {
+    "version": "3.5.1",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "- Add Dell XPS mute mic key support with hardware LED sync by @spencerbull, @dhh\r\n- Add resume performance boost on Panther Lake systems to avoid sluggishness after wake from sleep by @dhh\r\n- Add _Trigger > Toggle > Laptop Display_ to turn the laptop display on/off when using an external monitor by @dhh\r\n- Add _Update > Hardware > Trackpad_ to restart i2c_hid_acpi and THC driver paths for XPS haptic touchpad losing hapticness (temporarily until there's a permanent fix) by @dhh\r\n- Add Logitech MX Keys key binding examples for Print Screen, Dictation, and Emoji buttons to `~/.config/hypr/bindings.conf` on new installs by @joaovictor",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.1",
+    "published": "2026-04-16T14:32:15Z"
+  },
+  {
+    "version": "3.5.1",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "- Fix Fcitx5 icon showing up in the waybar (again!) by using a proper XDG autostart override instead of deleting the system file by @pomartel\r\n- Fix Intel Panther Lake display freezes and glitches by disabling both PSR and Panel Replay (`xe.enable_psr=0`) by @dhh\r\n- Fix haptic touchpad detection to match any Synaptics product, not just one specific model, for broader Dell XPS compatibility by @dhh\r\n- Fix spurious Hyprland config errors during git update by suppressing errors mid-pull and reloading after by @dhh\r\n- Fix double sudo prompt during updates by moving the PTY logging wrapper earlier in the update flow by @dhh\r\n- Fix Intel LPMD service not being enabled after installation by @dhh\r\n- Fix power profile rules running on every update instead of only on first run when the daemon is available by @dhh\r\n- Fix npx wrappers to run through mise-managed Node instead of system Node by @timohubois\r\n- Fix starship prompt init for dumb bash sessions (e.g. scp, rsync) by @pipetogrep\r\n- Fix display scaling cycle notification warnings by removing the Hyprland scale notification permanently by @dhh\r\n- Fix Chromium default appearance to follow system (device) instead of dark by @dhh\r\n- Fix btop.conf for v1.4.6 by @stefangrundel\r\n- Fix hibernation setup gracefully handling a failed btrfs resume offset lookup by @dhh\r\n- Fix Chromium/Brave stderr noise during theme switch by @felipegonzalez\r\n- Fix AC power udev rules failing silently at boot by wrapping them with systemd-run by @marco\r\n- Fix Intel video acceleration migration scripts referencing renamed path by @liammitchell\r\n- Fix browser launcher not recognizing new Brave Origin by @dhh\r\n- Fix sluggishness with the walker app launcher on some systems by making it use the cairo software renderer by @dhh\r\n- Fix performance power profile should be used when booting on AC power by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.1",
+    "published": "2026-04-16T14:32:15Z"
+  },
+  {
+    "version": "3.5.1",
+    "section_id": 3,
+    "title": "New Contributors",
+    "content": "* @geonizeli made their first contribution in https://github.com/basecamp/omarchy/pull/5301\r\n* @liamcmitchell made their first contribution in https://github.com/basecamp/omarchy/pull/5288\r\n* @felipe3dfx made their first contribution in https://github.com/basecamp/omarchy/pull/5285\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.5.0...v3.5.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.1",
+    "published": "2026-04-16T14:32:15Z"
+  }
+]

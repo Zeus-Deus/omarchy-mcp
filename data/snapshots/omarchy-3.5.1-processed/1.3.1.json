@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.3.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add 10% battery warning by @Mane-Pal in #121 \r\n* Add bare mode via `wget -qO- https://omarchy.org/install-bare | bash` that only installs essential apps by @dhh\r\n* Add all application bindings to default `~/.config/hypr/hyprland.conf` to make it easier to do app substitutions by @dhh\r\n* Fix that .inputrc rules (like history complete off partial command) wasn't getting loaded by @dhh\r\n* Fix chromium not starting in wayland mode when launched from app launcher by @dhh\r\n* Fix Basecamp + HEY default apps should use web2app like everything else by @dhh \r\n* Fix wifi network daemon wouldn't get installed if using ethernet during archinstall by @rockorager in #122 \r\n* Fix stylesheet duplication for hyprlock by @DrInfinite in #119\r\n* Fix wl-clip-persist should never store sensitive data by @roel4d in #113\r\n* Fix default waybar style to use \"Caskaydia Mono Nerd Font Propo\" for better icon alignment by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.3.1",
+    "published": "2025-07-11T00:14:13Z"
+  },
+  {
+    "version": "1.3.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @rockorager made their first contribution in https://github.com/basecamp/omarchy/pull/122\r\n* @DrInfinite made their first contribution in https://github.com/basecamp/omarchy/pull/119\r\n* @roel4d made their first contribution in https://github.com/basecamp/omarchy/pull/113\r\n* @Mane-Pal made their first contribution in https://github.com/basecamp/omarchy/pull/121\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.3.0...v1.3.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.3.1",
+    "published": "2025-07-11T00:14:13Z"
+  }
+]

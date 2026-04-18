@@ -1,0 +1,11 @@
+[
+  {
+    "version": "2.1.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix unstyled decryption screen on new installations made in the last day by @ryanrhughes \r\n* Fix 6Ghz Wi-Fi compatibility on existing installations with a migration by @dhh \r\n* Fix Intel graphics acceleration on existing installations with a migration by @dhh \r\n\r\n **Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.1.1...v2.1.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.1.2",
+    "published": "2025-09-10T15:33:51Z"
+  }
+]

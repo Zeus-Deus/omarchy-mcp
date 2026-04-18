@@ -1,0 +1,38 @@
+[
+  {
+    "version": "3.4.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.4.2-2.iso\r\n- SHA256: cf5ff60b7a9de4b4b82512bc6068e450bf0e9ff77c7082ae6624d022ec6faa33",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.2",
+    "published": "2026-03-08T16:29:53Z"
+  },
+  {
+    "version": "3.4.2",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "- Add fuller battery status notification showing percentage, time remaining, and power draw when using `Super + Ctrl + Alt + B` by @dhh\r\n- Add preview + invoke-to-open for the screenrecording notification by @dhh\r\n- Add `ga` / `gd` worktree helper functions for creating and removing git worktrees by @dhh\r\n- Add scratchpad slide-in animation by @shelldandy\r\n- Add Copilot key remapping to Omarchy Menu key via makima by @dhh\r\n- Add suggested touchpad gestures for scrolling layout focus navigation by @dhh\r\n- Add `Alt+Shift+Arrow` keybindings for swapping tmux windows by @dhh\r\n- Add tmux automatic window renaming based on current directory by @jadonwb\r\n- Add tmux zoom indicator in status bar by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.2",
+    "published": "2026-03-08T16:29:53Z"
+  },
+  {
+    "version": "3.4.2",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "- Fix nvim transparency to preserve foreground colors, resolving snacks.nvim GitHub integration crashes by @jorgemanrubia\r\n- Fix display scaling cycle to preserve configured resolution and refresh rate by @Cammisuli\r\n- Fix Panther Lake (Xe3) GPU display issues by disabling power-saving features by @dhh\r\n- Fix `try` interactive selector appearing on bashrc re-source by @davidguttman\r\n- Fix `intel-media-driver` install for Arc 130T/140T (Intel 255H) by @Riddlerrr\r\n- Fix LM Studio install downgrading to legacy package by @timohubois\r\n- Fix small LocalSend window size by @justindotdevv\r\n- Fix omarchy themes menu appearing in elephant provider list by @dhh\r\n- Fix omarchy menu toggling when already open by @dhh\r\n- Fix `wayfreeze-git` not being removed in migration by @dhh\r\n- Fix limine kernel cmdline spacing for hibernation and T2 Mac configs by @dhh\r\n- Fix limine-snapper to append drop-in kernel cmdline configs by @dhh\r\n- Fix mise shim activation in uwsm/env by @dhh\r\n- Fix `tmux attach` before creating new session by @dhh\r\n- Fix missing Intel GPU hardware acceleration drivers by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.2",
+    "published": "2026-03-08T16:29:53Z"
+  },
+  {
+    "version": "3.4.2",
+    "section_id": 3,
+    "title": "New Contributors",
+    "content": "* @davidguttman made their first contribution in https://github.com/basecamp/omarchy/pull/4877\r\n* @jadonwb made their first contribution in https://github.com/basecamp/omarchy/pull/4910\r\n* @justindotdevv made their first contribution in https://github.com/basecamp/omarchy/pull/4923\r\n* @jorgemanrubia made their first contribution in https://github.com/basecamp/omarchy/pull/4844\r\n* @Riddlerrr made their first contribution in https://github.com/basecamp/omarchy/pull/4922\r\n* @alex-budkar-amplitude made their first contribution in https://github.com/basecamp/omarchy/pull/4909\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.4.1...v3.4.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.2",
+    "published": "2026-03-08T16:29:53Z"
+  }
+]

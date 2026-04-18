@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Unified clipboard #",
+  "version": "3.5.1",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Usually on Linux, you need Ctrl + Shift + C/V to copy'n'paste in the terminal and Ctrl + C/V to do it everywhere else. That's hard to get used to for anyone who hasn't been born and bred on Linux! So too is the switch from super to ctrl, if you're coming from the Mac.\n\nOmarchy tackles both problems with unified clipboard hotkeys that work (almost) everywhere. They are:\n\nThe two exceptions to this uniformity is the file manager (Nautilus) and AI Agent CLIs (OpenCode, Claude Code). There you'll unfortunately have to make do with Ctrl + C/X/V for clipboard operations.\n\nThe clipboard history is provided by Walker and works for both text and images. You trigger it by Super + Ctrl + V, select your entry with return, and then that'll be placed on the clipboard ready to paste on Super + V.\n\nYou can also search the history just by starting to type:"
+}
