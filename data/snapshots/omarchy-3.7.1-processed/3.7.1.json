@@ -1,0 +1,20 @@
+[
+  {
+    "version": "3.7.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`).",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.7.1",
+    "published": "2026-05-04T23:53:20Z"
+  },
+  {
+    "version": "3.7.1",
+    "section_id": 1,
+    "title": "Fixes",
+    "content": "* Hotfix to remove lingering `xe.enable_panel_replay=0` setting from `KERNEL_CMDLINE` by @ryanrhughes",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.7.1",
+    "published": "2026-05-04T23:53:20Z"
+  }
+]

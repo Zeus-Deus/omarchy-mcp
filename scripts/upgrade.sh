@@ -102,6 +102,11 @@ echo "  📥 Arch wiki (latest)..."
 echo ""
 echo "🧹 Step 3: Processing documentation..."
 
+# Clear pinned Omarchy processed output so removed/renamed pages from older
+# versions cannot leak into the new snapshot.
+rm -rf data/processed/omarchy data/processed/omarchy_releases
+mkdir -p data/processed/omarchy data/processed/omarchy_releases
+
 # Ensure containers are running
 if ! docker-compose ps | grep -q "Up"; then
     echo "  ⚠️  Containers not running, starting them..."

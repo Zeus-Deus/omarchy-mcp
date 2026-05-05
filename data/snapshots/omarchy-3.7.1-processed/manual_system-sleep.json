@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "System sleep #",
+  "version": "3.7.1",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "PCs have long had a tortured relationship with suspend and hibernation. It seems to be very difficult for manufacturers to consistently get these right, although many do. So be aware that suspend and hibernate may not work on your particular system.\n\nBut they are enabled by default on new installations.\n\nYou toggle suspend under Setup > System Sleep > Enable/Disable Suspend. That just reveals/hides the option under System (or Super + Esc), and then you can see if it works consistently on your system. If not, you can turn it off again using Setup > System Sleep > Disable Suspend.\n\nYou toggle hibernation under Setup > System Sleep > Enable/Disable Hibernation. Hibernation creates a /swap subvolume on your boot drive the size of our physical RAM allocation, so make sure you have plenty of room to spare. On a 32GB machine, you'll always need 32GB+ free for this volume.\n\nWhen enabled, you'll see the hibernate option under System (or Super + Esc), and then you can see if it works consistently on your system. If not, you can turn it off again using Setup > System Sleep > Disable Hibernate."
+}

@@ -4,12 +4,12 @@ A Model Context Protocol (MCP) server providing semantic search over Omarchy, Ar
 
 ## Version Information
 
-- **Omarchy:** v3.5.1 (pinned)
-- **Omarchy Releases:** All versions up to v3.5.1
+- **Omarchy:** v3.7.1 (pinned)
+- **Omarchy Releases:** All versions up to v3.7.1
 - **Arch Wiki:** Latest (updated via script)
 - **Hyprland Wiki:** Latest (updated via script)
 
-**Note:** This server contains Omarchy v3.5.1 documentation. Some features may differ if you are on a different version.
+**Note:** This server contains Omarchy v3.7.1 documentation. Some features may differ if you are on a different version.
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ chmod +x scripts/setup.sh
 
 **This will take approximately 3-4 minutes and will:**
 
-- Restore Omarchy v3.5.1 docs from snapshot
+- Restore Omarchy v3.7.1 docs from snapshot
 - Download latest Arch Wiki and Hyprland documentation
 - Build and start Docker containers
 - Process and ingest all documentation into vector database
@@ -161,7 +161,7 @@ The knowledge base includes:
 
 ## Updating Documentation
 
-**Note:** Omarchy documentation and release notes remain at v3.5.1 (pinned version). To update Arch Wiki and Hyprland documentation, re-run the setup script or manually execute the download and processing scripts.
+**Note:** Omarchy documentation and release notes remain at v3.7.1 (pinned version). To update Arch Wiki and Hyprland documentation, re-run the setup script or manually execute the download and processing scripts.
 
 ## Manual Operations
 
@@ -197,7 +197,7 @@ docker-compose up -d
 omarchy-mcp/
 ├── data/
 │   ├── snapshots/
-│   │   └── omarchy-3.5.1-processed/ # Version snapshot (in Git)
+│   │   └── omarchy-3.7.1-processed/ # Version snapshot (in Git)
 │   ├── raw/ # Downloaded HTML (ignored)
 │   └── processed/ # Cleaned JSON (ignored)
 ├── scripts/

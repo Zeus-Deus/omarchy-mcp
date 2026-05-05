@@ -1,0 +1,47 @@
+[
+  {
+    "version": "3.6.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# The Panther Lake Plus Extreme Efficiency Edition\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.6.0-2.iso\r\n- SHA256: b43914a3c842920c6b8bec6a8fc1878291a359551945f17595b7a4ca3ef7ab44",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.6.0",
+    "published": "2026-04-23T13:31:06Z"
+  },
+  {
+    "version": "3.6.0",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "- Add additional kernel patches to custom kernel 6.19.13 build for Panther Lake to extract maximum efficiency by @TsaiGaggery, @spencerbull \r\n- Add full control of laptop display on lid open/close and assurance that unplugging the external display will always turn the internal one on again (even if cable is yanked during sleep or reboot) by @dhh\r\n- Add persistent toggle system so window gap, single-window aspect, and other flags survive `hyprctl reload` and restarts by @dhh\r\n- Add touchpad enable/disable/toggle support via `XF86TouchpadOn/Off/Toggle` with OSD feedback and persistent state by @drunkleen, @dhh\r\n- Add 1.25 as a scaling option and allow traveling backwards through the resolution scaling cycle by @dhh\r\n- Add screen recording audio normalization to -14 LUFS so quiet recordings are lifted to a consistent level by @robzolkos\r\n- Add `pause_media` to voxtype by default so MPRIS players pause while dictating by @peteonrails\r\n- Add Intel video encoding processors (`intel-media-driver`, Quick Sync H264/H265) by default so Kdenlive exports work on modern Intel CPU/GPU combos by @dhh\r\n- Add mako restarting option to _Update > Process_ by @dhh\r\n- Add lazy initialization of the `try` command to speed up bash startup by @innerviewer\r\n- Add voxtype GPU migration that enables GPU acceleration when Vulkan is available by @sgruendel\r\n- Add sped-up window movement and special workspace animations by @dhh\r\n- Add true-black configs and default background to the Vantablack theme for ultimate OLED efficiency by @dhh  \r\n- Add ThinkPad mic mute LED sync by @annoyedmilk \r\n- Add `Super + Ctrl + H` for hardware toggles menu controlling covering laptop display, touchpad, and hybrid GPU (only shown when hardware is available) by @dhh\r\n- Add `Ctrl + Alt + Tab` (next) and `Ctrl + Alt + Shift + Tab` (previous) to cycle focus through monitors by @sgruendel",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.6.0",
+    "published": "2026-04-23T13:31:06Z"
+  },
+  {
+    "version": "3.6.0",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "- Fix excessive disk usage from /home snapshots and btrfs quota churn killing CPU time by dropping /home snapshots entirely and giving up on btrfs quotas in favor of just keeping last 5 /root snapshots for fallbacks by @dhh\r\n- Fix orphaned `voxtype status --follow` processes piling up after every Waybar reload by trapping EXIT in the wrapper by @peteonrails\r\n- Fix `omarchy-update` hanging indefinitely when Chromium/Brave isn't running by skipping the blocking `--refresh-platform-policy` call by @peteonrails\r\n- Fix keyboard layout being reset to US after `omarchy-refresh-hyprland` by re-running layout detection by @peteonrails\r\n- Fix default audio sink switch not persisting by using `wpctl` instead of `pactl` so WirePlumber's configured sink is actually updated by @sergiojrdotnet\r\n- Fix Typora's print dialog not floating by @NicolasDorier\r\n- Fix Lumon theme colors for better visibility of selected text by @waleedhkirmani\r\n- Fix Elephant menu crashing when using a customized default theme that lacks a preview by @maxwell7774\r\n- Fix iA Writer Typora dark theme to work better on OLEDs by @dhh\r\n- Fix `cx` alias to use the new `--permission-mode bypassPermissions` flag in Claude Code by @pontino\r\n- Fix broken hide button on screensharing overlay by @dhh\r\n- Fix omarchy-theme-install not lowercasing theme name by @endafk  \r\n- Remove XPS Panther Lake display workarounds (`xe.enable_psr=0`, disabled VRR) now that recent kernel patches resolve the underlying glitches by @dhh\r\n- Remove the resume-boost workaround since the real fix is a BIOS update to the XPS by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.6.0",
+    "published": "2026-04-23T13:31:06Z"
+  },
+  {
+    "version": "3.6.0",
+    "section_id": 3,
+    "title": "Feature presentations",
+    "content": "### Increased Panther Lake efficiency\r\n\r\nIntel and Dell continue to refine our custom 6.19 kernel for Panther Lake with more backports from 7.0 and other improvements. We're now able to hit 2w idle on the new Framework 13 Pro with IPS panel and 2.2w idle using the Vantablack theme for the Dell XPS OLED 16\". Incredible numbers that point to battery life in excess of 30 hours!! As always, real usage mileage is a lot lower than that, but still a huge leap forward.\r\n\r\n<img width=\"936\" height=\"276\" alt=\"image\" src=\"https://github.com/user-attachments/assets/aa1e465c-d3e1-4c05-9bf6-ff34e7076a16\" />\r\n\r\n<img width=\"956\" height=\"302\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ce916b9e-b23b-4833-984e-992f5278546e\" />\r\n \r\n### Close the lid to disable laptop monitor (when you have external monitors connected)\r\n\r\nIf you're using your laptop with external monitors, you now just have to close the lid to turn off the internal laptop disable. When you open the lid again, it'll be enabled once more. If you have a closed lid, put the computer to sleep/hibernate/off, and then resume without the external monitor connected, we'll catch that too, and re-enable the internal display.\r\n\r\nWith Intel laptops, this now also works flawlessly with Thunderbolt connected external displays, like the Apple 5K Studio and 6K XDR options. (For the latter, though, you'll want to add `monitor=DP-2,disable` to your monitors.conf to disable the second ghost display that the XDR advertises for no good reason.)\r\n\r\nYou can also still toggle the laptop display on/off using `Super + Ctrl + Del` or _Trigger > Hardware > Laptop Display_.\r\n\r\n### No more automated /home snapshots or btrfs quotas\r\n\r\nOmarchy uses Limine snapper to capture your system state before an update, so you're able to rollback, if a new package breaks your system. But we were also taking snapshots automatically of your /home directory, even if we never exposed a way to restore that automatically. That could take up a lot of space. Especially since the automated cleanup was broken for a while \ud83e\udee3. Now we just snapshot /root to offer package rollback for the last five updates, and thus we also no longer need btrfs quotas, which had caused performance issues for some people.\r\n\r\nYou can of course still setup your own /home snapshots, if that's something you use.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.6.0",
+    "published": "2026-04-23T13:31:06Z"
+  },
+  {
+    "version": "3.6.0",
+    "section_id": 4,
+    "title": "New Contributors",
+    "content": "* @danflood94 made their first contribution in https://github.com/basecamp/omarchy/pull/4918\r\n* @lewispb made their first contribution in https://github.com/basecamp/omarchy/pull/5369\r\n* @drunkleen made their first contribution in https://github.com/basecamp/omarchy/pull/5353\r\n* @waleedhkirmani made their first contribution in https://github.com/basecamp/omarchy/pull/5269\r\n* @pontino made their first contribution in https://github.com/basecamp/omarchy/pull/5233\r\n* @sergiojrdotnet made their first contribution in https://github.com/basecamp/omarchy/pull/5236\r\n* @maxwell7774 made their first contribution in https://github.com/basecamp/omarchy/pull/4953\r\n* @endafk made their first contribution in https://github.com/basecamp/omarchy/pull/5392\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.5.1...v3.6.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.6.0",
+    "published": "2026-04-23T13:31:06Z"
+  }
+]

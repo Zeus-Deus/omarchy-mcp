@@ -1,0 +1,38 @@
+[
+  {
+    "version": "3.2.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.2.2.iso\r\n- SHA256: a9d26b1d053cab92326031a2b4c19b337afb8a0ea7192077fa21cf629728d9cc",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.2",
+    "published": "2025-11-29T01:17:02Z"
+  },
+  {
+    "version": "3.2.2",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "* Add `Super + Shift + Alt + ,` to restore the last dismissed notification by @vander00\r\n* Add `Super + Shift + Alt + [number]` to silently move active window to numbered workspace by @Traap",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.2",
+    "published": "2025-11-29T01:17:02Z"
+  },
+  {
+    "version": "3.2.2",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "* Fix repository DBs being out of sync with the current channel (switching from edge to stable would give 404s) by @dhh \r\n* Fix emoji picker would use a 3-column layout that would leak into other Walker menus by @dhh\r\n* Fix cursor text visibility with Ristretto theme on Ghostty by @jbnunn\r\n* Fix screensaver compatibility with TTE 0.14.1 by @dhh\r\n* Fix first keyboard layout should always be used when computer is locked by @Ziryt\r\n* Fix _Remove > Theme_ list should be ordered alphabetically by @jbnunn",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.2",
+    "published": "2025-11-29T01:17:02Z"
+  },
+  {
+    "version": "3.2.2",
+    "section_id": 3,
+    "title": "New Contributors",
+    "content": "* @nbw made their first contribution in https://github.com/basecamp/omarchy/pull/3651\r\n* @jbnunn made their first contribution in https://github.com/basecamp/omarchy/pull/3620\r\n* @scoop made their first contribution in https://github.com/basecamp/omarchy/pull/3634\r\n* @Ziryt made their first contribution in https://github.com/basecamp/omarchy/pull/3541\r\n* @vander00 made their first contribution in https://github.com/basecamp/omarchy/pull/3580\r\n* @Traap made their first contribution in https://github.com/basecamp/omarchy/pull/3546\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.2.1...v3.2.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.2",
+    "published": "2025-11-29T01:17:02Z"
+  }
+]

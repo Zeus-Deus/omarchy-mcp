@@ -119,13 +119,13 @@ def ingest_source(source_name, source_dir):
                 ))
             
             # Chunk and add
-            for section, content, tags in contents_to_process:
+            for section_idx, (section, content, tags) in enumerate(contents_to_process):
                 if not content or len(content.split()) < 20:
                     continue
                     
                 chunks = chunk_text(content)
                 for i, chunk in enumerate(chunks):
-                    doc_id = f"{source}_{page}_{section}_{i}".replace(" ", "_").replace("/", "_")[:100]
+                    doc_id = f"{source}_{page}_{section_idx}_{section}_{i}".replace(" ", "_").replace("/", "_")[:100]
                     
                     # ADD TO BATCH INSTEAD OF PROCESSING IMMEDIATELY
                     processor.add(

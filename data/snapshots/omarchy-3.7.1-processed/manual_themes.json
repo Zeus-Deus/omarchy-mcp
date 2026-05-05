@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Themes #",
+  "version": "3.7.1",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Omarchy comes with nineteen beautiful themes. You can select between them via Style > Theme in the Omarchy Menu (Super + Alt + Space) or hop directly to the theme selector using Super + Ctrl + Shift + Space.\n\nSuper + Ctrl + Shift + Space\n\nEach theme styles the desktop, terminal, neovim, activity screen (btop), notifications (mako), top bar (waybar), application launcher (walker), and the lock screen (hyprlock). (For Obsidian, you must manually select the Omarchy theme via Appearance > Themes inside the app).\n\nThemes have a set of background images that you can pick between using Super + Ctrl + Space.\n\nYou can find even more themes on the extra themes page or even make your own theme.\n\nThemes can also have a custom unlock design, which is used for the boot decryption process. You can select one of these under Style > Unlock. They look like this:"
+}

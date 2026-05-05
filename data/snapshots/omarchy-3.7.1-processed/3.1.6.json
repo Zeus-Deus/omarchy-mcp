@@ -1,0 +1,20 @@
+[
+  {
+    "version": "3.1.6",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# Omarchy 3.1.6\r\n\r\nUpdate existing installations using Update > Omarchy from Omarchy menu (Super + Alt + Space).\r\n\r\nInstall on new machines with the ISO:\r\n\r\nDownload: https://iso.omarchy.org/omarchy-3.1.6.iso\r\nSHA256: 39858b4f20f1db75a9dc81a4975a300ad72dddca6e8bdb70cc486ae6c3e621c2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.6",
+    "published": "2025-11-07T20:54:35Z"
+  },
+  {
+    "version": "3.1.6",
+    "section_id": 1,
+    "title": "What's Changed",
+    "content": "* Add a hotfix to fix limine order sourcing change causing boot errors by @ryanrhughes\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.1.5...v3.1.6",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.6",
+    "published": "2025-11-07T20:54:35Z"
+  }
+]

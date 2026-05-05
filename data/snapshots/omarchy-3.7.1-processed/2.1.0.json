@@ -1,0 +1,20 @@
+[
+  {
+    "version": "2.1.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add Cloudflare-hosted Omarchy Mirror as the default place to get Arch core/extra/multilib packages by @dhh \r\n* Remove chaotic-aur as a default setup now that we have our own package repo by @dhh \r\n* Add omarchy-pkg-add/drop/present/missing helper commands for migrations in particular by @dhh\r\n* Add omarchy-cmd-present/missing helper commands for migrations in particular by @dhh\r\n* Add Install > Service > Bitwarden as an alternative to 1pw by @crbelaus\r\n* Add Install > Editor > Emacs by @spdawson\r\n* Add Update > Hardware > Wifi/Bluetooth to unblock the modules via rfkill by @dhh\r\n* Add Samba drive support to file manager by @chantastic\r\n* Fix omarchy-migrate when migrations fail so they can be skipped by @Gazler\r\n* Fix bring back ttf-ia-writer now that the package has been sorted by @dhh + @ryanrhughes \r\n* Fix trailing slash in Omarchy pkg repo declarations by @dhh\r\n* Fix battery monitor math by @pipetogrep\r\n* Fix screensaver should pause for 2 seconds after each completed animation by @oppegard \r\n* Fix Install > AI > Ollama to install GPU-accelerated versions where possible by @valbertoenoc\r\n* Fix Omarchy Update: AUR should only upgrade AUR packages by @dhh \r\n* Fix Alacritty adding its own opacity controls on top of Hyprland by @dhh\r\n* Fix Kanagawa transparency being too high with default background on the terminal by @dhh\r\n* Fix missing icons for OS Age + Uptime in About by @theamit-969 \r\n* Fix qt5-wayland should be installed so KeepassXC, Nextcloud, Sqlite Browser, and other apps display correctly by @roelandmoors\r\n* Fix JetBrains font installed by default should be Nerd Font version by @ankurkotwal\r\n* Fix steam + retroarch could idle during gaming when using joypads by @JordanAnthonyKing\r\n* Fix wrong navigation icons used by Nautilus by @pipetogrep\r\n* Fix that a failed installation should offer an automatic retry rather than require manual command by @dhh\r\n* Fix Framework Laptop 13 audio input was misconfigured by @ryanrhughes + @dhh\r\n* Fix using Omarchy Package Repository for most optional installs too, like Cursor, Dropbox, VSCode, Claude, Crush, opencode by @ryanrhughes + @dhh\r\n*  Fix remove trailing slash from repository URL in pacman.conf setup by @szcharlesji\r\n* Fix DNS migration to handle UseDNS=no in network files by @jardahrazdera\r\n\r\nThis release completes the transition to having all package and mirror activity hitting our own setup behind Cloudflare \ud83c\udf89",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.1.0",
+    "published": "2025-08-31T14:12:37Z"
+  },
+  {
+    "version": "2.1.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @szcharlesji made their first contribution in https://github.com/basecamp/omarchy/pull/1141\r\n* @JordanAnthonyKing made their first contribution in https://github.com/basecamp/omarchy/pull/1303\r\n* @cossssmin made their first contribution in https://github.com/basecamp/omarchy/pull/1245\r\n* @chantastic made their first contribution in https://github.com/basecamp/omarchy/pull/1327\r\n* @pipetogrep made their first contribution in https://github.com/basecamp/omarchy/pull/1114\r\n* @rickdotnet made their first contribution in https://github.com/basecamp/omarchy/pull/1259\r\n* @ramtinJ95 made their first contribution in https://github.com/basecamp/omarchy/pull/1084\r\n* @crbelaus made their first contribution in https://github.com/basecamp/omarchy/pull/1044\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.0.5...v2.1.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.1.0",
+    "published": "2025-08-31T14:12:37Z"
+  }
+]

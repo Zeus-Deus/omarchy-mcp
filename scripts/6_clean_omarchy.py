@@ -80,7 +80,7 @@ def main():
                 "source": "omarchy",
                 "section": "manual",
                 "page": result["title"],
-                "version": "3.5.1",  # Update this to current version
+                "version": "3.7.1",  # Update this to current version
                 "priority": 1,  # Omarchy = highest priority
                 "tags": ["omarchy", "manual"],
                 "content": result["content"]

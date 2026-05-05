@@ -16,6 +16,7 @@ venv/
 ENV/
 
 # IDEs
+.codemux/
 .vscode/
 .cursor/
 .idea/

@@ -1,0 +1,11 @@
+[
+  {
+    "version": "1.5.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix long black screen waits after loader due to Docker network timeouts by @ryanrhughes in #223 \r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.5.0...v1.5.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.5.1",
+    "published": "2025-07-18T21:54:56Z"
+  }
+]
