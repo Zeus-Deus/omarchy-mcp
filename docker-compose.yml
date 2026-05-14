@@ -15,7 +15,16 @@ services:
 
   # MCP server - Python app
   mcp-server:
-    build: .
+    build:
+      context: .
+      # Build the container's non-root user with the host user's UID/GID so
+      # files written into the ./data bind mount (processed docs, downloads)
+      # stay owned by the host user instead of root. Without this, host-side
+      # cleanup in upgrade.sh / setup.sh fails with "Permission denied".
+      # Override DOCKER_UID/DOCKER_GID if your host user isn't 1000:1000.
+      args:
+        UID: "${DOCKER_UID:-1000}"
+        GID: "${DOCKER_GID:-1000}"
     container_name: omarchy-mcp-server
     depends_on:
       - chromadb

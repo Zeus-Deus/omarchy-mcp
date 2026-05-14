@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.12.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add Install > AI with suggestions for claude, gemini, LM studio, crush, and opencode by @dhh \r\n* Add Install > Style to group Theme/Font/Background like we do in Setup > Style by @dhh\r\n* Add Update > Process to make the omarchy-restart-* scripts available via the Omarchy menu by @dhh\r\n* Add highlight of current selection in Style > Font, Style > Theme, Setup > Power Profile by @dhh \r\n* Fix missing comma in windowrule for about by @dhh \r\n* Fix margin for the top bar tray by @dhh\r\n* Fix upgrade-icon wouldn't launch omarchy-upgrade due to missing path by @dhh\r\n* Fix that Update/Install/Remove options from the menu should not exit until user has pressed a key by @dhh\r\n* Fix that omarchy-update run in the terminal should not have presentation output around it by @dhh\r\n* Fix About page used a freaking windows icon for OS by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.12.1",
+    "published": "2025-08-08T15:35:58Z"
+  },
+  {
+    "version": "1.12.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @catlee made their first contribution in https://github.com/basecamp/omarchy/pull/561\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.12.0...v1.12.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.12.1",
+    "published": "2025-08-08T15:35:58Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.3.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add a beautiful Omarchy decryption + loading flow by @ryanrhughes in #89\r\n* Add theme-consistent coloring of the new power menu by @dhh\r\n* Add fingerprint authentication to sudo + system prompt when using `omarchy-fingerprint-setup` by @dhh in #109\r\n* Add idle/sleep prevention on `Super + Ctrl + I` by @dhh\r\n* Add a 2px border to the wofi menus to better set them apart from the background by @dhh\r\n* Switch to using power menu exclusively using `Super + Esc` to control lock/suspend/relaunch/restart/shutdown. Remove the confusingly prolific hotkeys + power icon in the top right. `Super + Esc` is now required learning to operate Omarchy. Work by @npenza.\r\n* Switch from iwctl to Impala TUI for selecting Wi-Fi networks by @da-maltsev\r\n* Switch from hyprpolkitagent to polkit-gnome to better support fingerprint authentication by @dhh\r\n* Remove Clipse as a clipboard manager as it would store passwords from 1password in plain text by @dhh\r\n* Fix cleaning up yay-bin after installing it by @bbondier \r\n* Fix that wifi/bluetooth/volume windows were too small by @dhh\r\n* Fix F keys on Apple-mode keyboards like the Flow84 permantly by @reshadman\r\n* Fix user keybindings weren't being included in `Super + K` by @dhh\r\n* Fix that 1password wouldn't work with 2FA setup because `gnome-keyring` was missing by @dhh\r\n\r\nRun `omarchy-update` to update. Then enjoy this beautiful login flow on your next reboot:\r\n\r\n![2025-07-09-133334_hyprshot](https://github.com/user-attachments/assets/2b166611-7591-4942-964c-3708832c8955)\r\n![2025-07-09-133346_hyprshot](https://github.com/user-attachments/assets/01ea7868-68f3-4426-9d02-5ce17b9b354c)",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.3.0",
+    "published": "2025-07-10T02:44:39Z"
+  },
+  {
+    "version": "1.3.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @da-maltsev made their first contribution in https://github.com/basecamp/omarchy/pull/84\r\n* @anoldguy made their first contribution in https://github.com/basecamp/omarchy/pull/108\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.2.0...v1.3.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.3.0",
+    "published": "2025-07-10T02:44:39Z"
+  }
+]

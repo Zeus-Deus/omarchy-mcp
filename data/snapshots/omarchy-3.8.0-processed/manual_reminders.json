@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Reminders #",
+  "version": "3.8.0",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "Omarchy has a built-in way to set simple reminders based on a countdown timer and with a message. You can do this via Super + Ctrl + R, seeing all the ones set via Super + Ctrl + Alt + R, and clearing all via Super + Ctrl + Shift + R. Everything also accessible via Trigger > Reminder. You can also use the cli with omarchy reminder 7 'Tea ready'.\n\nSuper + Ctrl + Alt + R\n\nSuper + Ctrl + Shift + R\n\nomarchy reminder 7 'Tea ready'"
+}

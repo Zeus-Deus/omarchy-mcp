@@ -1,0 +1,38 @@
+[
+  {
+    "version": "3.2.3",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.2.3-2.iso\r\n- SHA256: 7a40fac851642b243ab0f1098759063c4ecbd37dd99bdb7da8ba1868a7153d85",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.3",
+    "published": "2025-12-15T22:30:01Z"
+  },
+  {
+    "version": "3.2.3",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "* Add Alacritty back as a default package to provide a fallback for systems that do not support Ghostty by @dhh \r\n* Add Iosevka as an optional font install by @Ibreede\r\n* Add new background image for Ethereal theme by @s-pra1ham\r\n* Add [Fizzy](https://fizzy.do) as a default web app on new installations by @dcchambers \r\n* Add `Super + Ctrl + Arrows` to navigate inside grouped windows becaause overloaded hotkeys conflicted with moving in/out of grouped windows by @dhh\r\n* Add better portal share picker by @ryanrhughes \r\n* Add emergency entries for Walker to allow easy restart if there's an issue with Walker / Elephant by @ryanrhughes \r\n* Add thunderbolt module to support thunderbolt devices on Plymouth login by @sgruendel & @ryanrhughes \r\n* Add _Update > Channel_ to switch between stable/edge/dev channels by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.3",
+    "published": "2025-12-15T22:30:01Z"
+  },
+  {
+    "version": "3.2.3",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "* Fix reboot should be offered if kernel was updated during channel changes by @dhh\r\n* Fix lock screen should not accept empty submissions by @dhh\r\n* Fix screensaver should stop on mouse movement by @wolfgangw \r\n* Fix screensaver layout shift by using a floating terminal by @MirasMustimov\r\n* Fix screensaver running on multi-display setups by @robergd83 \r\n* Fix Walker autostarts on new installations by @dhh \r\n* Fix default Kitty config including deprecated/removed settings by @Darthrocket\r\n* Fix install expand icon in post-install notification by @sgruendel \r\n* Fix T2 services should automatically be started on install by @dimitrieh\r\n* Fix web apps should be restored in `omarchy-refresh-applications` by @dhh\r\n* Fix private window launches for mullvad browser by @jazzzooo\r\n* Fix bitwarden window should float by default just like 1password by @timohubois \r\n* Fix urgent notifications should show on top of full-screen windows by @scale03\r\n* Fix pacman index DBs should be updated on Omarchy updates to prevent drifting from stable repos by @dhh'\r\n* Fix prevent screensaver and system locking while running Omarchy updates by @ryanrhughes \r\n* Fix `omarchy-restart-walker` to properly restart the new services by @ryanrhughes \r\n* Fix limine logic to check all .conf locations by @ZarK, @madhurdhama, and @ryanrhughes \r\n* Fix UKI directory checks in `omarchy-refresh-limine` by @SoAp9035\r\n* Fix prevent snapper exhausting disk space by @nacapulque and @ryanrhughes\r\n* Fix increase faillock attempts to 10 for hyprlock by @ryanrhughes \r\n* Fix screensaver should close walker before starting by @wolfgangw",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.3",
+    "published": "2025-12-15T22:30:01Z"
+  },
+  {
+    "version": "3.2.3",
+    "section_id": 3,
+    "title": "New Contributors",
+    "content": "* @iknevo made their first contribution in https://github.com/basecamp/omarchy/pull/3694\r\n* @lbreede made their first contribution in https://github.com/basecamp/omarchy/pull/3811\r\n* @dimitrieh made their first contribution in https://github.com/basecamp/omarchy/pull/3792\r\n* @robergd83 made their first contribution in https://github.com/basecamp/omarchy/pull/3781\r\n* @lochel made their first contribution in https://github.com/basecamp/omarchy/pull/3763\r\n* @dcchambers made their first contribution in https://github.com/basecamp/omarchy/pull/3759\r\n* @jazzzooo made their first contribution in https://github.com/basecamp/omarchy/pull/3756\r\n* @TheAhumMaitra made their first contribution in https://github.com/basecamp/omarchy/pull/3842\r\n* @scale03 made their first contribution in https://github.com/basecamp/omarchy/pull/3838\r\n* @Darthrocket made their first contribution in https://github.com/basecamp/omarchy/pull/3849\r\n* @SoAp9035 made their first contribution in https://github.com/basecamp/omarchy/pull/3492\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.2.2...v3.2.3",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.2.3",
+    "published": "2025-12-15T22:30:01Z"
+  }
+]

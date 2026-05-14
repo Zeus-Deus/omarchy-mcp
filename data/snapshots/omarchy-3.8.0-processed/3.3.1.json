@@ -1,0 +1,29 @@
+[
+  {
+    "version": "3.3.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.3.1.iso\r\n- SHA256: 25657c6658d2ef8dadcaa24677952e745ce4ccf34b80b6cf71af8dfae5a1c294",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.1",
+    "published": "2026-01-08T13:04:50Z"
+  },
+  {
+    "version": "3.3.1",
+    "section_id": 1,
+    "title": "Fixes",
+    "content": "* Fix nvidia detection of older professional workstation cards by @Nm1ss\r\n* Fix use of accent color in mako and SwayOSD theme templates by @dhh\r\n* Fix migration of old input scroll touchpad rules by @timohubois\r\n* Fix complicated VSCode derivative themeing by centralizing all in omarchy-theme-set-vscode by @dhh\r\n* Fix needless active_border_color/active_tab_background definitions in colors.toml and replace with just accent by @dhh\r\n* Fix Kitty cursor shape to be a block like Alacritty/Ghostty by @dhh\r\n* Fix chromium wouldn't start after new installs because the archiso installer would own the singleton by @dhh\r\n* Fix migration to new theme setup for people who had a custom theme selected by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.1",
+    "published": "2026-01-08T13:04:50Z"
+  },
+  {
+    "version": "3.3.1",
+    "section_id": 2,
+    "title": "New Contributors",
+    "content": "* @Nm1ss made their first contribution in https://github.com/basecamp/omarchy/pull/4138\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.3.0...v3.3.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.1",
+    "published": "2026-01-08T13:04:50Z"
+  }
+]

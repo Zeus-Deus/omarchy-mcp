@@ -1,0 +1,29 @@
+[
+  {
+    "version": "3.1.4",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# Omarchy 3.1.4\r\n\r\nUpdate existing installations using Update > Omarchy from Omarchy menu (Super + Alt + Space).\r\n\r\nInstall on new machines with the ISO:\r\n\r\nDownload: https://iso.omarchy.org/omarchy-3.1.4.iso\r\nSHA256: d845db165a2878e9543251e56e68750b4ce61b61b0e260e2797939ea2ac07caf",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.4",
+    "published": "2025-10-28T15:20:05Z"
+  },
+  {
+    "version": "3.1.4",
+    "section_id": 1,
+    "title": "What changed?",
+    "content": "* Add better presentation of keybindings in order of importance by @dhh\r\n* Add `Super + S` to reveal scratchpad workspace overlay and `Super + Alt + S` to move an app there by @fldc\r\n* Add `Ctrl + P` to print on the image viewer by @ctarx \r\n* Add a confirmation before starting the update process by @ryanrhughes \r\n* Add omarchy-keyring to install trusted signing keys by @ryanrhughes \r\n* Add gum confirm defaults to match the active theme by @ryanrhughes \r\n* Fix low-contrast issues in auto-generated Obsidian color schemes by @alexandersix\r\n* Fix Brave dialogs to be floating like chromium by @Rishabh-Sarang\r\n* Fix new windows should appear on top when in full-screen mode by @gyaaniguy\r\n* Fix Surface keyboard compatibility with decryption screen by @brennancoslette\r\n* Fix `Alt + Shift + L` hotkey for copying URL in a web app should be in list of keybindings by @manuel1618\r\n* Fix post-install message to no longer include the message to remove USB key (not necessary) by @NeimadTL\r\n* Fix install failure when passwords began with a \"-\" @dakshesh14\r\n* Fix prevent showing sed error by mistake when encountering early issues in the installer by @ryanrhughes \r\n* Fix opening nvim via app launcher or file manager would actually open $EDITOR by @dhh\r\n* Fix that the new-version check for Omarchy in the waybar should only run once every 6 hours not every hour by @dhh\r\n* Fix slow application startups on some systems by setting systemd envs at startup by @ryanrhughes \r\n* Fix port 22 should not be open by default in ufw configuration by @ctarxctarx \r\n* Fix aliases for cd/ls should only be set if eza/zoxide is still on the system by @wiehann \r\n* Fix time should be synced before doing an Omarchy update by @dhh \r\n* Fix Android Studio window rules so dialogs are clickable by @AdamMusa\r\n* Fix Ghostty default shell config to respect the block cursor by @jwkicklighter \r\n* Fix fcitx5 clipboard interfering with hotkeys in other apps by turning it off by @cairin",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.4",
+    "published": "2025-10-28T15:20:05Z"
+  },
+  {
+    "version": "3.1.4",
+    "section_id": 2,
+    "title": "New Contributors",
+    "content": "* @Rishabh-Sarang made their first contribution in https://github.com/basecamp/omarchy/pull/2788\r\n* @gyaaniguy made their first contribution in https://github.com/basecamp/omarchy/pull/2821\r\n* @brennancoslett made their first contribution in https://github.com/basecamp/omarchy/pull/2621\r\n* @ZorudaRinku made their first contribution in https://github.com/basecamp/omarchy/pull/2516\r\n* @NeimadTL made their first contribution in https://github.com/basecamp/omarchy/pull/2888\r\n* @wiehann made their first contribution in https://github.com/basecamp/omarchy/pull/2609\r\n* @fldc made their first contribution in https://github.com/basecamp/omarchy/pull/2669\r\n* @zachasme made their first contribution in https://github.com/basecamp/omarchy/pull/1601\r\n* @alexandersix made their first contribution in https://github.com/basecamp/omarchy/pull/2752\r\n* @LinAnt made their first contribution in https://github.com/basecamp/omarchy/pull/2907\r\n* @jwkicklighter made their first contribution in https://github.com/basecamp/omarchy/pull/2915\r\n* @AdamMusa made their first contribution in https://github.com/basecamp/omarchy/pull/2899\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.1.3...v3.1.4",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.4",
+    "published": "2025-10-28T15:20:05Z"
+  }
+]

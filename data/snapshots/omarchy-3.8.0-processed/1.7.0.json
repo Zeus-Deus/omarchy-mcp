@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.7.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add new Omarchy screensaver on SUPER + ALT + SPACE by @dhh\r\n* Add a beautiful brown ristretto theme by @gthelding\r\n* Add ALT+TAB to cycle between windows, including floating ones, on the active workspace by @c4software \r\n* Add Omarchy version to About app by @tahayvr \r\n* Fix About should float and center\r\n* Fix update logos to use the cleaned up version by @seanmitchell \r\n* Fix default monitors.conf to include more examples by @dhh\r\n* Fix default .bashrc to offer examples and explanation by @dhh \r\n* Fix sorting of the theme menu picker by @dhh\r\n* Fix restricting Steam centering to only the main window by @sobran\r\n\r\nUpdate using `omarchy-update all`.\r\n\r\n### New screensaver\r\n\r\nhttps://github.com/user-attachments/assets/2b9bed59-8109-4ce1-8432-2bc8eda4b54f\r\n\r\n### New ristretto theme\r\n\r\n<img width=\"6016\" height=\"3384\" alt=\"screenshot-2025-07-28_14-01-16\" src=\"https://github.com/user-attachments/assets/863ae629-487b-4473-b8f9-bfae6fcfbd17\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.7.0",
+    "published": "2025-07-28T12:15:38Z"
+  },
+  {
+    "version": "1.7.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @sobran made their first contribution in https://github.com/basecamp/omarchy/pull/380\r\n* @gthelding made their first contribution in https://github.com/basecamp/omarchy/pull/384\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.6.2...v1.7.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.7.0",
+    "published": "2025-07-28T12:15:38Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.9.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add starting screensaver after 1 minute by default and include it in the power menu by @dhh\r\n* Add invitation to update Omarchy when a new version is available via waybar icon by @dhh\r\n* Add invitation to reboot the system when the Linux kernel has been upgraded after `omarchy-update` by @dhh\r\n* Add faded numbers for empty workspaces by @brink-lab\r\n* Add icon themes using Yaru colors to all default themes by @dhh\r\n* Add option for all themes to put a custom icon theme name in `icons.theme` file by @dhh \r\n* Add inline diff when config files are updated with new Omarchy defaults by @dhh\r\n* Add backup timestamps to omarchy-refresh-* to prevent clobbering by @ardavis\r\n* Fix (again) that Waybar would stack in certain situations by @ryanrhughes \r\n* Fix power menu options showing sorting codes in languages other than English by removing them (walker doesn't need them) by @dhh \r\n* Fix migration for adding file finder to Walker by @ardavis\r\n* Fix that bat should use system theme by @cannikin \r\n* Fix screensaver shifting up between animations by @ryanrhughes \r\n* Fix decryption screen logo being off-center on some monitors by @ryanrhughes \r\n* Fix ristretto neovim compatibility with some plugins by @gthelding \r\n* Fix that pressing any key should cancel the screensaver by @dhh \r\n\r\nUpdate by running `omarchy-update` or Go to _Update > Omarchy_ in the Omarchy TUI.\r\n\r\n---\r\n\r\n### Invitation to update\r\n\r\n<img width=\"260\" height=\"60\" alt=\"screenshot-2025-08-02_21-43-15\" src=\"https://github.com/user-attachments/assets/d8e1cdc8-221e-4fd7-9d4f-d8e3c53363c8\" />\r\n\r\n### Faded numbers for empty workspaces\r\n\r\n<img width=\"252\" height=\"62\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8e2a4e7b-f223-4d89-af1c-6af5a0c01355\" />\r\n\r\n### Icon theme colors\r\n\r\nHere are all the available options: `Yaru Yaru-blue Yaru-dark Yaru-magenta Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-wartybrown Yaru-yellow`\r\n\r\n<img width=\"1600\" height=\"1262\" alt=\"image\" src=\"https://github.com/user-attachments/assets/82a8ab33-3874-4a61-b4b2-426e53fcb708\" />\r\n\r\n<img width=\"1602\" height=\"1246\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5ae084a3-ef28-4449-9947-85c3e0479156\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.9.0",
+    "published": "2025-08-02T20:39:12Z"
+  },
+  {
+    "version": "1.9.0",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @sailoz made their first contribution in https://github.com/basecamp/omarchy/pull/393\r\n* @Mohamedsayhii made their first contribution in https://github.com/basecamp/omarchy/pull/396\r\n* @ardavis made their first contribution in https://github.com/basecamp/omarchy/pull/402\r\n* @cannikin made their first contribution in https://github.com/basecamp/omarchy/pull/438\r\n* @brink-lab made their first contribution in https://github.com/basecamp/omarchy/pull/444\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.8.0...v1.9.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.9.0",
+    "published": "2025-08-02T20:39:12Z"
+  }
+]

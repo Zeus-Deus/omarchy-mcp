@@ -1,0 +1,29 @@
+[
+  {
+    "version": "1.2.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add power menu to waybar by @npenza in #65\r\n* Add bash completion by @smola in #80\r\n* Add hotkeys for notifications: `Super+,` to dismiss latest. `Super+Shift+,` to dismiss all. `Super+Ctrl+,` to toggle DND by @ThiaudioTT , @ryanrhughes, and @dhh\r\n* Add thumbnails for videos in the file manager by @dhh\r\n* Add additional input suggestions to default `.config/hypr/hyprland.conf` by @dhh\r\n* Fix fingerprint enrollment to be for current user by @zdehasek in #69 \r\n* Fix that File Open/Save overlays should float in center by @dhh\r\n* Remove Dropbox and power profile icons from top bar (not enough value) by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.2.0",
+    "published": "2025-07-07T04:03:27Z"
+  },
+  {
+    "version": "1.2.0",
+    "section_id": 1,
+    "title": "Upgrading",
+    "content": "You upgrade by running `omarchy-update` in the terminal. If you'd like to get the new power menu in the top bar, you can run `omarchy-refresh-waybar` \u2014 but only do that if you have not made changes to `~/.config/waybar/config` or `~/.config/waybar/style.css`! If you have made changes, first back those up, then merge them back in. Or just look how to add the new power menu yourself.\r\n\r\nThe new power menu looks like this:\r\n\r\n![image](https://github.com/user-attachments/assets/8e55f8ed-facd-4645-a335-f177a58b6cc6)",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.2.0",
+    "published": "2025-07-07T04:03:27Z"
+  },
+  {
+    "version": "1.2.0",
+    "section_id": 2,
+    "title": "New Contributors",
+    "content": "* @zdehasek made their first contribution in https://github.com/basecamp/omarchy/pull/69\r\n* @smola made their first contribution in https://github.com/basecamp/omarchy/pull/80\r\n* @olgkv made their first contribution in https://github.com/basecamp/omarchy/pull/79\r\n* @ThiaudioTT made their first contribution in https://github.com/basecamp/omarchy/pull/77\r\n* @ryanrhughes made their first contribution in https://github.com/basecamp/omarchy/pull/63\r\n* @npenza made their first contribution in https://github.com/basecamp/omarchy/pull/65\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.1.1...v1.2.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.2.0",
+    "published": "2025-07-07T04:03:27Z"
+  }
+]

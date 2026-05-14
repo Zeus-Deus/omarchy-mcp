@@ -1,0 +1,11 @@
+[
+  {
+    "version": "1.3.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix show keybindings for the new subdivided files by @dhh\r\n* Fix nautilus image previews (`Space` when in the file manager) should float and center the preview by @dhh\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.3.1...v1.3.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.3.2",
+    "published": "2025-07-11T01:57:47Z"
+  }
+]

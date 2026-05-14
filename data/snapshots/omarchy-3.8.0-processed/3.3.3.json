@@ -1,0 +1,20 @@
+[
+  {
+    "version": "3.3.3",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`).",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.3",
+    "published": "2026-01-08T23:53:02Z"
+  },
+  {
+    "version": "3.3.3",
+    "section_id": 1,
+    "title": "Fixes",
+    "content": "* Hotfix to ignore updating `gcc14` via `omarchy-update` by @ryanrhughes\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.3.2...v3.3.3",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.3.3",
+    "published": "2026-01-08T23:53:02Z"
+  }
+]

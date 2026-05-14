@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🚀 Setting up Omarchy MCP Server (v3.7.1)..."
+echo "🚀 Setting up Omarchy MCP Server (v3.8.0)..."
 
 # Create directories
 rm -rf data/processed/omarchy data/processed/omarchy_releases

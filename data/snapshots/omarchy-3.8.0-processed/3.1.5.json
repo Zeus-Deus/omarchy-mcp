@@ -1,0 +1,29 @@
+[
+  {
+    "version": "3.1.5",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# Omarchy 3.1.5\r\n\r\nUpdate existing installations using Update > Omarchy from Omarchy menu (Super + Alt + Space).\r\n\r\nInstall on new machines with the ISO:\r\n\r\nDownload: https://iso.omarchy.org/omarchy-3.1.5.iso\r\nSHA256: 92c417f153a1af112973f5af52104d9dd0442d270b0f241bf91a232dd2b5b8df",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.5",
+    "published": "2025-11-03T17:34:10Z"
+  },
+  {
+    "version": "3.1.5",
+    "section_id": 1,
+    "title": "What changed?",
+    "content": "* Add `Super + O` to pop a window out into a pinned and floating overlay by @ryrobes \r\n* Fix possibility for walker/elephant to brick on upgrading by introducing omarchy-walker meta package by @ryanrhughes \r\n* Add Terminal execution via xdg-terminal-exec to ensure you can't end up without a working terminal by @ryanrhughes \r\n* Fix phantom recording indicator by @davidszp\r\n* Fix phantom battery low alerts by @joshuafouch\r\n* Fix omarchy-launch-editor when a missing editor has been specified by @killeik \r\n* Fix gemini-cli should now be installed from arch/extra not AUR by @maromalo\r\n* Fix current theme should be applied to new VSCode installations by @brianblakely \r\n* Fix nvim should be default editor for most text mimetypes out of the box by @ryanrhughes \r\n* Fix that eza themes should no longer be symlinked since we dropped them by @miharekar \r\n* Fix more optional packages to come from OPR instead of AUR by @ryanrhughes",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.5",
+    "published": "2025-11-03T17:34:10Z"
+  },
+  {
+    "version": "3.1.5",
+    "section_id": 2,
+    "title": "New Contributors",
+    "content": "* @joshuafouch made their first contribution in #2949\r\n* @ryrobes made their first contribution in #2954\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.1.4...v3.1.5",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.5",
+    "published": "2025-11-03T17:34:10Z"
+  }
+]

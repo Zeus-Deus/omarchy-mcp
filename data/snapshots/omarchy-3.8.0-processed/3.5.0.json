@@ -1,0 +1,65 @@
+[
+  {
+    "version": "3.5.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# The Panther Lake Edition\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.5.0-2.iso\r\n- SHA256: 0d3a7944240df631c5c9f7802d735a96bb0a6a3f8a65b7d45b609699aa888bd5",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  },
+  {
+    "version": "3.5.0",
+    "section_id": 1,
+    "title": "Features",
+    "content": "* Add full compatibility with Intel Panther Lake machines using a patched 6.19.10 kernel (until 7.0 includes everything) and IPU7 camera driver for webcam compatibility by @spencerbull, @TsaiGaggery, @dhh\r\n* Add better general Intel performance management by installing thermald for improved thermal throttling, LPMD for optimized core selection, and intel-media-driver for more efficient video playback by @spencerbull, @TsaiGaggery, @dhh\r\n* Add LocalSend send action in Nautilus file manager by @marciobbj \r\n* Add `sff` function for using fuzzy find to send files over scp by @dhh\r\n* Add [ONCE](https://www.youtube.com/watch?v=yZankuDQQmw) installer to _Install > Services_ by @kevinmcconnell \r\n* Add `omarchy-sudo-passwordless-toggle` to give AI full access to run sudo commands for a limited period during high-risk debugging by @dhh\r\n* Add lazy-install stubs for Opencode, Gemini, Codex, Copilot, and Playwright CLIs via npx due to rapid churn updates by @dhh\r\n* Add battery-low hook for things like sound warnings by @Lo0rd3 \r\n* Add image previews in Kitty terminal when using `ff` by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  },
+  {
+    "version": "3.5.0",
+    "section_id": 2,
+    "title": "Aesthetics",
+    "content": "* Add Lumon Industries theme by @oldjobobo\r\n* Add Retro 82 theme by @oldjobobo\r\n* Add additional Gruvbox backgrounds by @oldjobobo\r\n* Add `COPY` highlight when tmux is in copy mode by @vtmx \r\n* Add consistent/modern theme previews for all included themes by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  },
+  {
+    "version": "3.5.0",
+    "section_id": 3,
+    "title": "Compatibility",
+    "content": "* Fix Wifi 7 on Dell XPS 2026+ machines by @spencerbull \r\n* Fix haptic trackpad on Dell XPS 2026+ machines by @dhh\r\n* Fix keyboard backlighting for Tuxedo/Slimbook laptops by @dhh\r\n* Fix T2 Mac fan curve to better match original intentions by @fedesapuppo \r\n* Fix T2 Mac bluetooth by @fedesapuppo\r\n* Fix T2 Mac keyboard backlight controls by @fedesapuppo",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  },
+  {
+    "version": "3.5.0",
+    "section_id": 4,
+    "title": "Fixes",
+    "content": "* Fix JetBrains integration in hyprland by removing all custom rules now that they're using Wayland by @NicolasDorier\r\n* Fix Voxtype AI dictation should use GPU when available by @sgruendel \r\n* Fix makima remapping of copilot key should be opt-in using _Setup > Key Remapping_ by @dhh\r\n* Fix battery remaining calculation to proper work with minutes v hours by @dhh, @fedesapuppo\r\n* Fix FUSE filesystems hanging before suspend/hibernate by @alansikora\r\n* Fix Moonlight remote player should fullscreen and inhibit idle like other gaming apps by @dhh \r\n* Fix failing firmware updates due to missing UEFI capsule by @annoyedmilk \r\n* Fix webcam overlay on screenrecordings to use vertical framing by @dhh\r\n* Fix VS Code Insiders should use VS Code themes by @tyvsmith\r\n* Fix picture directory should be created if it doesn't exist on screenshots by @brunorwx\r\n* Fix missing package update progress during Omarchy Update by @robzolkos",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  },
+  {
+    "version": "3.5.0",
+    "section_id": 5,
+    "title": "Feature presentations",
+    "content": "### Full Panther Lake support\r\n\r\nIntel's new Panther Lake processor is a milestone for efficiency and performance on Linux. It's built on the company's new 18A node in Arizona, and it delivers single-core performance on par with an Apple M3, multi-core performance on par with an Apple M5, and GPU performance ahead of the M5. All while being incredibly power efficient with idle load levels as low as 2-3w, which on ~70wh batteries can give around 16 hours of mixed use.\r\n\r\nOmarchy has worked with Intel and Dell to provide complete support and optimization out of the box. We're using a patched 6.19.10 kernel until the forthcoming 7.0 release drops with all the compatibility fixes needed. Together with Intel's thermald and lmpd services for thermal and core management. Everything has been extensively tested on [the new Dell XPS 2026 series of laptops](https://www.dell.com/en-us/shop/dell-laptops/dell-xps-16-laptop/spd/xps-da16260-laptop), as well as another yet-to-be-named Panther Lake laptop.\r\n\r\n<img width=\"1350\" height=\"1800\" alt=\"image\" src=\"https://github.com/user-attachments/assets/aa5f1be8-f77f-4c4a-8bd4-dcc77ca06193\" />\r\n\r\n### ONCE\r\n\r\n<img width=\"1450\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/73b28d1d-fbaa-4323-b242-110a2072e1eb\" />\r\n\r\n[ONCE](https://www.youtube.com/watch?v=yZankuDQQmw) is an app server for running Dockerized web apps locally (or in the cloud!). Install it via _Install > Services > ONCE_ and you'll have the easiest way to setup [Campfire](https://once.com/campfire), [Writebook](https://once.com/writebook), [Fizzy](https://fizzy.do), and any third-party Dockerized app that adheres to the standard.\r\n\r\n### Lumon Industries theme\r\n\r\n<img width=\"1800\" height=\"1012\" alt=\"preview\" src=\"https://github.com/user-attachments/assets/5bca295c-d28a-4275-81a6-49656ef342d3\" />\r\n\r\nThe work is mysterious and important. Another banger theme by @oldjobobo.\r\n\r\n### Retro 82 theme\r\n\r\n<img width=\"1800\" height=\"1012\" alt=\"preview\" src=\"https://github.com/user-attachments/assets/85db1ce6-077b-4405-942f-80a14e1181b4\" />\r\n\r\nJust the right vibes for an evening groove. Also by @oldjobobo.\r\n\r\n### Additional Gruvbox backgrounds\r\n\r\nMore classic paintings to go with The Backwater, like these:\r\n\r\n![2-flower-basket](https://github.com/user-attachments/assets/8ef8870f-bcb0-47e7-a610-b3af68f9721d)\r\n![3-village-square](https://github.com/user-attachments/assets/6409cb1d-3e48-4026-b752-ba9d996e30f5)",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  },
+  {
+    "version": "3.5.0",
+    "section_id": 6,
+    "title": "New Contributors",
+    "content": "* @Lo0rd3 made their first contribution in https://github.com/basecamp/omarchy/pull/4945\r\n* @Alex23rodriguez made their first contribution in https://github.com/basecamp/omarchy/pull/5009\r\n* @vtmx made their first contribution in https://github.com/basecamp/omarchy/pull/5028\r\n* @patrick-boc made their first contribution in https://github.com/basecamp/omarchy/pull/5056\r\n* @milllan made their first contribution in https://github.com/basecamp/omarchy/pull/5116\r\n* @tyvsmith made their first contribution in https://github.com/basecamp/omarchy/pull/5119\r\n* @jra3 made their first contribution in https://github.com/basecamp/omarchy/pull/5115\r\n* @spencerbull made their first contribution in https://github.com/basecamp/omarchy/pull/5106\r\n* @fedesapuppo made their first contribution in https://github.com/basecamp/omarchy/pull/5145\r\n* @brunorwx made their first contribution in https://github.com/basecamp/omarchy/pull/5181\r\n* @marciobbj made their first contribution in https://github.com/basecamp/omarchy/pull/4946\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.4.2...v3.5.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+    "published": "2026-04-03T17:31:42Z"
+  }
+]

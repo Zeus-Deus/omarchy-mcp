@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.1.1",
+    "section_id": 0,
+    "title": "What's Changed",
+    "content": "* Add Nvidia support by @Kn0ax in https://github.com/basecamp/omarchy/pull/13\r\n* Add fingerprint authentication on the lock screen and provide `omarchy-fingerprint-setup` to configure it by @dhh + @henrysipp\r\n* Add `Super + K` to show keybindings in https://github.com/basecamp/omarchy/pull/44 by @oca159\r\n* Add LocalSend as a new default application by @dhh\r\n* Add mpv instead of vlc as the default video player by @dhh\r\n* Add yayf alias for easy package search by @calvinludwig in https://github.com/basecamp/omarchy/pull/42\r\n* Stop compiling ruby by default to speed up install by @dhh \r\n* Fix `Super + Space` to toggle application launcher by @martinstork in https://github.com/basecamp/omarchy/pull/58\r\n* Fix Chromium to be set as the default browser on new installations to avoid \"Chromium isn't your default browser\" nag on first run by @dhh\r\n* Fix using *-bin versions of packages where possible to speed up install by @dhh \r\n* Fix missing /etc/docker/daemon.json config by @dhh\r\n* Fix `Super + [number]` hotkeys compatible with French and other keyboard layouts in https://github.com/basecamp/omarchy/pull/55 by @c4software\r\n* Fix capitalization of YouTube by @nicholaschiang in https://github.com/basecamp/omarchy/pull/8\r\n* Fix for persistent workspaces shown in waybar by @kennethgeerts in https://github.com/basecamp/omarchy/pull/10\r\n* Fix duplicated key in waybar battery config by @0xProt in https://github.com/basecamp/omarchy/pull/15\r\n\r\nAs always, you update by running `omarchy-update` in a terminal. If you installed Omarchy more than 2 days ago and haven't updated yet, run `omarchy-update all` just this once to catch up with migrations.",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.1.1",
+    "published": "2025-07-05T00:02:09Z"
+  },
+  {
+    "version": "1.1.1",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @nicholaschiang made their first contribution in https://github.com/basecamp/omarchy/pull/8\r\n* @kennethgeerts made their first contribution in https://github.com/basecamp/omarchy/pull/10\r\n* @0xProt made their first contribution in https://github.com/basecamp/omarchy/pull/15\r\n* @harilvfs made their first contribution in https://github.com/basecamp/omarchy/pull/20\r\n* @Kn0ax made their first contribution in https://github.com/basecamp/omarchy/pull/13\r\n* @iharsuvorau made their first contribution in https://github.com/basecamp/omarchy/pull/29\r\n* @oca159 made their first contribution in https://github.com/basecamp/omarchy/pull/44\r\n* @calvinludwig made their first contribution in https://github.com/basecamp/omarchy/pull/42\r\n* @prertik made their first contribution in https://github.com/basecamp/omarchy/pull/37\r\n* @martinstork made their first contribution in https://github.com/basecamp/omarchy/pull/58\r\n* @c4software made their first contribution in https://github.com/basecamp/omarchy/pull/55",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.1.1",
+    "published": "2025-07-05T00:02:09Z"
+  }
+]

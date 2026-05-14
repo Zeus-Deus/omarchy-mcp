@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.6.2",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Add updating timezone (using geo by IP) by right-clicking on the clock by @dhh\r\n* Add color terminal text effects for the installer and break it into 5 distinct segments by @dhh \r\n* Add a cleaned-up version of the Omarchy logo by @tahayvr and @seanmitchell \r\n* Add Chaotic-AUR support for precompiled installations of dependencies like Pinta by @saullrb  \r\n* Add = as the leader key for calculations in app launcher (so type =5+5 to get 10) by @ryanrhughes \r\n* Add options to override output from screenshot and screenrecord commands using `OMARCHY_SCREENRECORD_DIR` and `OMARCHY_SCREENSHOT_DIR` by @benhoman\r\n* Add that bare installs are remembered by @JaxonWright\r\n* Fix waybar stacking after sleep/locking by reloading waybar by @dhh\r\n* Fix background would sometimes disappear after changing theme (because swaybg would exit) by @dhh\r\n* Fix screenshot stacking if hitting hotkey twice by @ryanrhughes\r\n* Fix mismatched colors for mako and swayosd for some themes by @dhh\r\n* Fix using matte black neovim plugin instead of inline color coding by @tahayvr \r\n* Fix respect XDG_DIRS for languages other than English for screenshot/screenrecord commands by @michaldziurowski \r\n* Fix fzf completion path by @anagrius\r\n\r\nThe new installation effects:\r\n\r\n\r\nhttps://github.com/user-attachments/assets/a929e9e7-6112-4303-bcf3-567861d290ff",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.2",
+    "published": "2025-07-26T21:19:56Z"
+  },
+  {
+    "version": "1.6.2",
+    "section_id": 1,
+    "title": "New Contributors",
+    "content": "* @benhoman made their first contribution in https://github.com/basecamp/omarchy/pull/322\r\n* @anagrius made their first contribution in https://github.com/basecamp/omarchy/pull/337\r\n* @michaldziurowski made their first contribution in https://github.com/basecamp/omarchy/pull/342\r\n* @JaxonWright made their first contribution in https://github.com/basecamp/omarchy/pull/351\r\n* @seanmitchell made their first contribution in https://github.com/basecamp/omarchy/pull/361\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v1.6.1...v1.6.2",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v1.6.2",
+    "published": "2025-07-26T21:19:56Z"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "version": "3.8.0",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# The Defaults Edition\r\n\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.8.0.iso\r\n- SHA256: a9b271e8884dc123f0787e10cff3153dca7361cc6583edd1a3baa283a031f872",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 1,
+    "title": "Features",
+    "content": "- Add setting reminders via `Super + Ctrl + R`, seeing all the ones set via `Super + Ctrl + Alt + R`, and clearing all via `Super + Ctrl + Shift + R`. Everything also accessible via _Trigger > Reminder_ by @dhh\r\n- Add live weather in the waybar and as a notification on `Super + Ctrl + Alt + W` by @dhh\r\n- Add _Trigger > Transcode_, `Super + Ctrl + .`, and `omarchy transcode` menu/CLI for video, audio, and gif transcoding by @dhh\r\n- Add transcode option to right-click file menu in file manager by @28allday\r\n- Add Amiga, C64, and Amstrad cores to the default RetroArch setup by @dhh\r\n- Add `~/.config/omarchy/hooks/post-update.d/my.hook` directory-style hooks instead of a single file (easier for extensions to drop files than munge a single config) by @dhh\r\n- Add post-boot notification hooks by @dhh\r\n- Add offer to install Voxtype Dictation on new installers after first update by @dhh\r\n- Add Bluetooth A2DP auto-connect in WirePlumber for more resilient Bluetooth audio connections by @dandresrp",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 2,
+    "title": "Defaults",
+    "content": "- Add _Setup > Default > Browser/Terminal/Editor_ to choose the system-wide application by @dhh\r\n- Add _Install > Browser_ to install and switch the default browser to Chrome, Brave, Brave Origin, Firefox, or Zen by @dhh\r\n- Add Foot terminal as an installable terminal option, including live theming by @dhh\r\n- Add option to install without encryption through the ISO by @dhh\r\n- Add Colemak keyboard layout option to ISO install flow by @danielmain",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 3,
+    "title": "Aesthetics",
+    "content": "- Add ASCII-logo screensaver and about-screen generation from any image by @ryanrhughes\r\n- Add theming to the [Zed editor](https://zed.dev/) when installed via _Install > Editor_ by @pomartel\r\n- Add fully matching theme for SDDM logins to the decryption style by @dhh \r\n- Add light/dark mode syncing to the pi agent by @dhh\r\n- Fix Catppuccin theme colorscheme name by @jcorbalan\r\n- Fix theme refreshing to no longer changes the selected background image by @dhh\r\n- Fix relative wallpaper paths before creating background symlinks by @alexoxte\r\n- Fix no-gaps mode so rounding is also disabled by @maxguzenski\r\n- Fix Helix theming legibility by @lukehsiao",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 4,
+    "title": "Controls",
+    "content": "- Add better idle handling: lock/sleep/wake flows now turn displays and keyboard brightness off and back on more reliably by @dhh\r\n- Add middle-click paste consistency across GTK/Chromium apps by enabling primary selection paste on button 3 by @peteonrails\r\n- Add tmux extended keys by default by @dhh\r\n- Add file completions after Omarchy command completions run out by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 5,
+    "title": "Compatibility",
+    "content": "- Add Studio Display XDR support by @miharekar\r\n- Add _Trigger > Hardware > Touchpad Haptic_ to control the haptic strength level of the Dell XPS 2026 by @jacob-vincent-mink, @dhh\r\n- Fix audio on Intel Panther Lake systems with DSP by installing `sof-firmware` @mijuny\r\n- Fix bass speaker for Lenovo Yoga Pro 7 14IAH10 by @aikazu\r\n- Fix Asus Zenbook UX5406AA display backlight by @mateuszkowalczyk\r\n- Fix hardware video acceleration for non-X-series Panther Lake Chips by @mateuszkowalczyk",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 6,
+    "title": "Fixes",
+    "content": "- Fix manual screen lock so the display powers off shortly after locking by @dhh\r\n- Fix RetroArch joypad autoconfiguration and joypad directory setup by @dhh\r\n- Fix `omarchy` cli metadata inconsistencies by @dhh\r\n- Fix `omarchy refresh applications` should also update npx stubs by @dhh\r\n- Fix installer formatting breaking on some preexisting linux installations by @dhh\r\n- Fix pi package migrated to `@earendil-works/pi-coding-agent` by @ryanrhughes \r\n- Fix identical notifications should be grouped by @dhh",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 7,
+    "title": "Feature presentations",
+    "content": "### Set reminders\r\n\r\nOmarchy now has a built-in way to set simple reminders based on a countdown timer and with a message. You can do this via `Super + Ctrl + R`, seeing all the ones set via `Super + Ctrl + Alt + R`, and clearing all via `Super + Ctrl + Shift + R`. Everything also accessible via _Trigger > Reminder_. You can also use the cli with `omarchy reminder 7 'Tea ready'`.\r\n\r\n<img width=\"1280\" height=\"720\" alt=\"screenrecording-2026-05-08_14-35-22-720p\" src=\"https://github.com/user-attachments/assets/0094dbbc-7475-435a-a4aa-23d994f09ba3\" />\r\n\r\n### Live weather in Waybar and notification\r\n\r\nLive weather is now available in the Waybar when you have an internet connection. It uses the brilliant https://wttr.in as the backend, translates that to cute glyphs, and even considers day/night according to the local sunrise/sunset times.\r\n\r\n<img width=\"723\" height=\"297\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0be41b6-6207-43a1-91d2-c0a6042ca095\" />\r\n<br>\r\n\r\nThere's also a more detailed notification you can trigger with `Super + Ctrl + Alt + W`:\r\n\r\n<img width=\"1469\" height=\"329\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9acc4c26-70e3-404b-88bb-abfc025c2f1b\" />\r\n\r\n### Set Default Browser/Terminal/Editor\r\n\r\nThe holy trifecta of productivity defaults can now be set explicitly from the menu. Whether you like Foot or Ghostty, Chromium or Zen, Neovim or Helix, you can make Omarchy yours with very little effort. Install what you need from _Install > Terminal_ or _Install > Editor_ or _Install > Browser_, then set your default or change it via _Setup > Defaults_.\r\n\r\n<img width=\"1502\" height=\"794\" alt=\"image\" src=\"https://github.com/user-attachments/assets/503ee5ad-6560-4f3e-80f1-c8810f88dedc\" />\r\n<img width=\"1584\" height=\"890\" alt=\"image\" src=\"https://github.com/user-attachments/assets/01302e24-9643-4b01-97c4-7ca8c7dd688d\" />\r\n<img width=\"1448\" height=\"944\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d1bdd193-91f2-416b-afd3-6728523429ff\" />\r\n\r\n### Browser installer\r\n\r\nOmarchy can now install browsers with all the correct configs for Omarchy from the install menu. Browser-specific styling was moved into this flow, so changing browsers keeps Omarchy's theme integration intact.\r\n\r\nYou get live theming with Chrome, Edge, Brave, and Brave Origin.\r\n\r\n<img width=\"2160\" height=\"1215\" alt=\"screenshot-2026-05-06_17-22-23-medium\" src=\"https://github.com/user-attachments/assets/24a2dd6f-3c85-4075-ba63-41ea59f51505\" />\r\n\r\n### Foot terminal option\r\n\r\nFoot joins the terminal lineup with Omarchy defaults and theme support. Install it from _Install > Terminal_ and theme it like the rest of the system. It's a remarkably light terminal, using about a fifth of the memory footprint of other already light options like Alacritty:\r\n\r\n<img width=\"950\" height=\"768\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d36618aa-df8c-45b5-a052-7ff6f003126f\" />\r\n\r\n### No-encryption installs\r\n\r\nOmarchy _strongly_ recommends using encryption with any installation going onto a machine that can be stolen or lost. But if you're running Omarchy on a headless server that's fully secured, it can make sense to turn off encryption to make it easier to do remote restarts. This can now be done on the disk confirmation stage during install by hitting `Ctrl + c`. An unencrypted install still asks for the password on boot, but as part of the normal login process. Not pre-boot. \r\n\r\n<img width=\"1480\" height=\"906\" alt=\"screenshot-2026-05-06_17-28-56-medium\" src=\"https://github.com/user-attachments/assets/8b53c9db-748b-4e77-9413-827141224d5c\" />\r\n\r\n### ASCII image screensaver + about screen\r\n\r\nYou can now set the screensaver to an ASCII-rendered version of an image, giving the lock/idle experience another fun customization opportunity. You do this via _Style > Screensaver > Set From Image_.\r\n\r\n<img width=\"1280\" height=\"720\" alt=\"screenrecording-2026-05-06_17-26-15-720p\" src=\"https://github.com/user-attachments/assets/5044ebc3-b8b0-45f4-b546-46759d7fda16\" />\r\n<br>\r\n\r\nThe same can be done for the about screen via _Style > Screensaver > Set From Image_.\r\n\r\n<img width=\"1750\" height=\"1200\" alt=\"about\" src=\"https://github.com/user-attachments/assets/54a69215-5372-47ee-ac9a-95f5fd37150d\" />\r\n\r\n### Zed with Omarchy themes\r\n\r\nZed will now get live theming when installed via _Install > Editor > Zed_.\r\n\r\n<img width=\"2160\" height=\"1215\" alt=\"screenshot-2026-05-06_17-24-37-medium\" src=\"https://github.com/user-attachments/assets/06c706f5-0f30-4aed-8826-deba21630e60\" />\r\n\r\n### Transcoding flow\r\n\r\nYou can now transcode images and videos directly from the Omarchy menu through _Trigger > Transcode_ or `Super + Ctrl + R`. Super handy when you've taken a screenshot and you need it as a small jpg (instead of the default png) or you've recorded a short video and you want it as a gif.\r\n\r\n<img width=\"1152\" height=\"720\" alt=\"screenrecording-2026-05-09_16-59-08-720p\" src=\"https://github.com/user-attachments/assets/81812188-2664-4d4a-be88-32118fe4c964\" />",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  },
+  {
+    "version": "3.8.0",
+    "section_id": 8,
+    "title": "New Contributors",
+    "content": "* @jscorbalan made their first contribution in https://github.com/basecamp/omarchy/pull/5572\r\n* @ilyaZar made their first contribution in https://github.com/basecamp/omarchy/pull/5593\r\n* @alexoxte made their first contribution in https://github.com/basecamp/omarchy/pull/5612\r\n* @28allday made their first contribution in https://github.com/basecamp/omarchy/pull/5635\r\n* @vitalibondar made their first contribution in https://github.com/basecamp/omarchy/pull/5623\r\n* @aikazu made their first contribution in https://github.com/basecamp/omarchy/pull/5597\r\n* @mateuszkowalczyk made their first contribution in https://github.com/basecamp/omarchy/pull/5620\r\n* @dandresrp made their first contribution in https://github.com/basecamp/omarchy/pull/5336\r\n* @patrickrodrigues-aa made their first contribution in https://github.com/basecamp/omarchy/pull/5656\r\n* @twagner12 made their first contribution in https://github.com/basecamp/omarchy/pull/5661\r\n* @mtp13 made their first contribution in https://github.com/basecamp/omarchy/pull/5660\r\n* @jacob-vincent-mink made their first contribution in https://github.com/basecamp/omarchy/pull/5534\r\n* @Jzwnl made their first contribution in https://github.com/basecamp/omarchy/pull/5677\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.7.1...v3.8.0",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.8.0",
+    "published": "2026-05-09T15:22:29Z"
+  }
+]

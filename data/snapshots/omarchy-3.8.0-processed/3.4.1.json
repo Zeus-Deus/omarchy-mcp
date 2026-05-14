@@ -1,0 +1,38 @@
+[
+  {
+    "version": "3.4.1",
+    "section_id": 0,
+    "title": "What's Changed",
+    "content": "Update existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`). \r\n\r\nInstall on new machines with the ISO:\r\n- Download: https://iso.omarchy.org/omarchy-3.4.1-2.iso\r\n- SHA256: bad8ccd14a715ec5d67ab61c9e8258c1cee44176cf35050e72e047506f1c1120",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.1",
+    "published": "2026-02-28T17:47:46Z"
+  },
+  {
+    "version": "3.4.1",
+    "section_id": 1,
+    "title": "Additions",
+    "content": "- Add `Super + L` to toggle between the new Hyprland scrolling layout and the existing dwindle layout by @dhh\r\n- Add `Super + /` to cycle display resolutions (instead of the awkward `Super + Ctrl + Alt + Backspace`) by @dhh\r\n- Add `Super + Ctrl + O` to open the new toggle menu (which now includes Window Gaps, 1-Window Ratio, Display Scaling) by @dhh\r\n- Add `Alt + left/right` for moving between tmux windows and `alt + up/down` to move between sessions by @dhh, @marcotroisi",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.1",
+    "published": "2026-02-28T17:47:46Z"
+  },
+  {
+    "version": "3.4.1",
+    "section_id": 2,
+    "title": "Fixes",
+    "content": "- Fix compatibility with Hyprland 0.54 by @dhh\r\n- Fix fcitx5 being auto-started twice by @pomartel \r\n- Fix OMARCHY_PATH and PATH not being available when SSH'ing into Omarchy machines by @dhh, @alexpgates \r\n- Fix omarchy-launch-or-focus breakage on jq replacemeny by @garethson \r\n- Fix ASUS mic unmute at installation time by @KrisKind75 \r\n- Fix SDDM password field overflow by @dhh\r\n- Fix Omarchy updates that include new Hyprland should offer a reboot by @dhh\r\n- Fix screenrecording on 4K+ displays and use constant frame-rate for easier post-editing without transcoding by @dhh\r\n- Fix terminal output without a newline would be swallowed by @dhh \r\n- Fix screensaver should use slidein instead of popin animation by @ieocin",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.1",
+    "published": "2026-02-28T17:47:46Z"
+  },
+  {
+    "version": "3.4.1",
+    "section_id": 3,
+    "title": "New Contributors",
+    "content": "* @garethson made their first contribution in https://github.com/basecamp/omarchy/pull/4766\r\n* @alexpgates made their first contribution in https://github.com/basecamp/omarchy/pull/4782\r\n* @KrisKind75 made their first contribution in https://github.com/basecamp/omarchy/pull/4771\r\n* @Trippie-Redd made their first contribution in https://github.com/basecamp/omarchy/pull/4789\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.4.0...v3.4.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.4.1",
+    "published": "2026-02-28T17:47:46Z"
+  }
+]

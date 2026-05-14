@@ -1,0 +1,20 @@
+[
+  {
+    "version": "3.1.1",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What's Changed\r\nUpdate existing installations using `Update > Omarchy` from Omarchy menu (`Super + Alt + Space`).\r\n\r\nInstall on new machines with the ISO:\r\n - Download: https://iso.omarchy.org/omarchy-3.1.1.iso\r\n - SHA256: 4d2cdf7b0cfe763e32c98447ebe8add891f47ab9d054732369b92fcc6dd1baa8",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.1",
+    "published": "2025-10-20T16:48:48Z"
+  },
+  {
+    "version": "3.1.1",
+    "section_id": 1,
+    "title": "Fixed stuff",
+    "content": "* Add binding for tiled full screen toggle by @brianblakely\r\n* Fix changing workspace with mousescroll by @dhh \r\n* Add descriptions to clipboard keybinds by @timohubois\r\n* Add error fallback if terminal was not installed successfully by @jondkinney\r\n* Fix universal RAM detection (locale-independent) by @brunoh3art\r\n* Fix update walker migration to run for everyone by @ryanrhughes \r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v3.1.0...v3.1.1",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.1.1",
+    "published": "2025-10-20T16:48:48Z"
+  }
+]

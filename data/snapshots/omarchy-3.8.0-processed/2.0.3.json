@@ -1,0 +1,11 @@
+[
+  {
+    "version": "2.0.3",
+    "section_id": 0,
+    "title": "Overview",
+    "content": "# What changed?\r\n\r\n* Fix top bar would disappear when running upgrade from the update-available icon by @dhh \r\n* Fix phantom update-available icon in top bar showing up due to git network errors by @dhh\r\n* Fix migration to add --working-directory to bindings.conf if its already there by @dhh\r\n* Fix non-kosher use of pacman -Sy that would cause partial system updates by @dhh\r\n\r\n**Full Changelog**: https://github.com/basecamp/omarchy/compare/v2.0.2...v2.0.3",
+    "type": "release_note",
+    "url": "https://github.com/basecamp/omarchy/releases/tag/v2.0.3",
+    "published": "2025-08-27T14:12:02Z"
+  }
+]

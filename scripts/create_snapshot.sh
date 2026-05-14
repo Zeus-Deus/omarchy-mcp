@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VERSION="3.7.1"
+VERSION="3.8.0"
 SNAPSHOT_DIR="data/snapshots/omarchy-${VERSION}-processed"
 
 echo "📸 Creating snapshot for Omarchy v${VERSION}..."

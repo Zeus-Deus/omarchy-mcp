@@ -1,0 +1,12 @@
+{
+  "source": "omarchy",
+  "section": "manual",
+  "page": "Notices #",
+  "version": "3.8.0",
+  "priority": 1,
+  "tags": [
+    "omarchy",
+    "manual"
+  ],
+  "content": "You can quickly access the date and time, battery status, and current weather using the hotkey notices.\n\nSuper + Ctrl + At + T\n\nSuper + Ctrl + At + T\n\nSuper + Ctrl + Alt + W\n\nSuper + Ctrl + Alt + W\n\nSuper + Ctrl + Alt + B\n\nSuper + Ctrl + Alt + B"
+}
